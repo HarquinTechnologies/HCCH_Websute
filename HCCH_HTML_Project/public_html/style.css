@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2014, 6:35:26 AM
+    Author     : Ashley_Quintin
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 300px;
+    float: left;
+}
+
+#homeDonateMenu {
+    float: right;
+}
+
+#homeDonateMenu li{
+    list-style: none;
+    float: left;
+    padding: 2px;
+    border-right: thin solid black;
+}
+
+#homeDonateMenu li:last-child {
+    border-right: none;
+}
+
+#menu {
+    float: left;
+    width: 960px;
+    clear: both;
+   background-color: #f26522; 
+}
+
+#menu li {
+    list-style: none;
+    color: white;
+    border-right: 1px solid black;
+    width: 140px;
+    padding: 0px 9.5px;
+    text-align: center;
+    float: left;
+}
+
+#menu li:last-child {
+    border-right: none;
+}
+
+#menu li:hover {
+    background-color: #d04300;
+}
+
+.mainContent {
+  clear: left;
+  float: left;
+  width: 620px;
+}
+
+.mainContent img {
+  width: 620px;
+}
+
+.sidebar {
+  float: right;
+  width: 300px;
+}
+
+.sidebar img {
+  width: 300px;
+  clear: both;
+}
