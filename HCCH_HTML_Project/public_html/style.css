@@ -90,3 +90,20 @@ and open the template in the editor.
   width: 300px;
   clear: both;
 }
+
+#footerBar {
+    width: 960px;
+    background-color: #f26522;
+    padding: 5px 0px;
+    color: white;
+    text-align: center;
+}
+
+.footerLinkColumn {
+    width: 220px;
+    float: left;
+}
+
+.mainMenuOption {
+    color: #f26522
+}
