@@ -8,8 +8,8 @@ and open the template in the editor.
     Author     : Ashley_Quintin
 */
 *{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .wrap {
@@ -22,15 +22,30 @@ and open the template in the editor.
     float: left;
 }
 
+#bottomLogo {
+    width: 200px;
+    float: left;
+}
+
+#socialMediaIcons {
+    width: 350px;
+    padding: 30px;
+    display: block;
+    margin-left: 305px;
+}
+
 #homeDonateMenu {
     float: right;
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: lighter;
 }
 
 #homeDonateMenu li{
     list-style: none;
     float: left;
     padding: 2px;
-    border-right: thin solid black;
+    border-right: medium solid #5a5b5d;
 }
 
 #homeDonateMenu li:last-child {
@@ -40,16 +55,20 @@ and open the template in the editor.
 #menu {
     float: left;
     width: 960px;
+    height: 30px;
     clear: both;
-   background-color: #f26522; 
+    font-family: Adobe Calson Pro;
+    font-size: large;
+    background: linear-gradient(#f7941e, #f26522);
 }
 
 #menu li {
     list-style: none;
     color: white;
     /*border-right: 1px solid black;*/
-    width: 140px;
-    padding: 0px 15px;
+    width: 192px;
+    height: 20px;
+    padding: 5px 0px;
     text-align: center;
     float: left;
 }
@@ -59,7 +78,7 @@ and open the template in the editor.
 }
 
 #menu li:hover {
-    background-color: #d04300;
+    background: linear-gradient(#d97807, #ce4507);
 }
 
 #menu li > a {
@@ -68,42 +87,54 @@ and open the template in the editor.
 }
 
 #bannerImg {
-    height: 768px;
-    width: 960px;
+    //height: 768px;
+    //width: 960px;
 }
 .mainContent {
-  clear: left;
-  float: left;
-  width: 620px;
+    clear: left;
+    float: left;
+    width: 620px;
 }
 
 .mainContent img {
-  width: 620px;
+    width: 620px;
 }
 
 .sidebar {
-  float: right;
-  width: 300px;
+    float: right;
+    width: 300px;
 }
 
 .sidebar img {
-  width: 300px;
-  clear: both;
+    width: 300px;
+    clear: both;
 }
 
 #footerBar {
     width: 960px;
-    background-color: #f26522;
+    height: 30px;
+    background: linear-gradient(#f7941e, #f26522);
+}
+
+#footerBar li {
+    height: 25px;
     padding: 5px 0px;
     color: white;
+    font-family: Adobe Calson Pro;
+    font-size: large;
     text-align: center;
 }
 
 .footerLinkColumn {
-    width: 220px;
+    color: #5a5b5d;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
+    width: 240px;
     float: left;
 }
 
 .mainMenuOption {
-    color: #f26522
+    color: #f26522;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
 }
