@@ -23,6 +23,7 @@ and open the template in the editor.
 }
 
 #bottomLogo {
+    clear: left;
     width: 200px;
     float: left;
 }
@@ -31,7 +32,7 @@ and open the template in the editor.
     width: 350px;
     padding: 30px;
     display: block;
-    margin-left: 305px;
+    float: right;
 }
 
 #homeDonateMenu {
@@ -86,10 +87,6 @@ and open the template in the editor.
     text-decoration: none;
 }
 
-#bannerImg {
-    //height: 768px;
-    //width: 960px;
-}
 .mainContent {
     clear: left;
     float: left;
@@ -120,6 +117,7 @@ and open the template in the editor.
     height: 25px;
     padding: 5px 0px;
     color: white;
+    list-style: none;
     font-family: Adobe Calson Pro;
     font-size: large;
     text-align: center;
