@@ -40,6 +40,7 @@ and open the template in the editor.
     font-family: Adobe Calson Pro;
     color: #5a5b5d;
     font-weight: lighter;
+    font-size: 16px;
 }
 
 #homeDonateMenu li{
@@ -53,9 +54,10 @@ and open the template in the editor.
     border-right: none;
 }
 
+
 #menu {
-    float: left;
-    width: 960px;
+    //float: left;
+    //width: 100%;
     height: 30px;
     clear: both;
     font-family: Adobe Calson Pro;
@@ -63,12 +65,17 @@ and open the template in the editor.
     background: linear-gradient(#f7941e, #f26522);
 }
 
+#menu ul {
+    width: 100%;
+}
+
 #menu li {
     list-style: none;
     color: white;
     /*border-right: 1px solid black;*/
-    width: 192px;
-    height: 20px;
+    //width: 192px;
+    width: 20%;
+    height: 30px;
     padding: 5px 0px;
     text-align: center;
     float: left;
@@ -82,9 +89,50 @@ and open the template in the editor.
     background: linear-gradient(#d97807, #ce4507);
 }
 
-#menu li > a {
+#menu ul li a {
     color: white;
     text-decoration: none;
+    margin: 0 auto;
+}
+
+#nav{
+	position:relative;
+	z-index:99999999;
+	}	
+#nav nav{
+	float: right;
+    width: auto;
+}
+#nav ul{
+	margin:0;
+	list-style:none;
+	font-family: Adobe Calson Pro;
+	}
+#nav ul li{
+	display:inline-block;
+	float:left;
+	margin:0;
+	}
+#nav ul li {
+    color: white;
+    float: left;
+    font-size: large;
+    background: linear-gradient(#f7941e, #f26522);
+}
+
+#nav ul li.active, #nav ul li:hover{
+	color:#fff;
+	background: linear-gradient(#d97807, #ce4507);
+}
+	
+#nav select {
+    display: none;
+    height: 28px;
+    line-height: 28px;
+    padding: 4px;
+	margin-top:22px;
+	float:left;
+    width: 100%;
 }
 
 .mainContent {
@@ -108,14 +156,15 @@ and open the template in the editor.
 }
 
 #footerBar {
-    width: 960px;
-    height: 30px;
+    /*width: 960px;*/
+    //height: 30px;
     background: linear-gradient(#f7941e, #f26522);
 }
 
 #footerBar li {
-    height: 25px;
-    padding: 5px 0px;
+    height: 30px;
+    line-height: 30px;
+   // padding: 5px 0px;
     color: white;
     list-style: none;
     font-family: Adobe Calson Pro;
@@ -127,8 +176,8 @@ and open the template in the editor.
     color: #5a5b5d;
     font-family: Adobe Calson Pro;
     font-weight: lighter;
-    width: 240px;
-    float: left;
+   /* width: 240px;*/
+    /*float: left;*/
 }
 
 .mainMenuOption {
