@@ -22,6 +22,28 @@ and open the template in the editor.
         <script type="text/javascript" src="[JS library]"></script>
 	<script type="text/javascript" src="js/modernizr.custom.js"></script>
         
+        <!-- Import Map Script -->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+          function initialize() {
+            var mapCanvas = document.getElementById('map_canvas');
+            var mapOptions = {
+              center: new google.maps.LatLng(28.512819, -81.380107),
+              zoom: 16,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            
+            // Creating a marker and positioning it on the map    
+            var marker = new google.maps.Marker({    
+              position: new google.maps.LatLng(28.512819, -81.380107),    
+              map: map    
+            });  
+          }
+          
+          google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        
         <!-- Style Sheets -->
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -50,22 +72,42 @@ and open the template in the editor.
 <!------------------------------------------------------------------------------
                                End Header
 ------------------------------------------------------------------------------->
-        <!-- TODO: Dynamically Load Header -->    
+        <!-- TODO: Dynamically Load Header -->            
         <div class="container">
             <div class="row">
-                <div class="col-md-12 hidden-sm hidden-xs">
-                <img src="images/Under-Construction-6.png"  alt="Home Banner">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <div class="mapColumn col-md-6" id="content">
+                    <div id="map_canvas"></div>
+                </div>                
+                <div class="infoBarColumn col-md-4">
+                    <h1>Community Food & Outreach Center</h1>
+                    <h2>Find Us</h2>
+                    <p>150 W Michigan St.</p>
+                    <p>Orlando, FL 32806</p>
+                    <h2>Call Us</h2>
+                    <p>(407)203-6856</p>
+                    <h1>Services at this Location</h1>
+                    <p>Primary & Preventive Medical Care</p>
+                    <p>Behavioral Health Counseling</p>
+                    <p>Substance Abuse Counseling</p>
+                    <p>Rapid HIV Testing</p>
+                    <p>On-Site Laboratory</p>
+                    <h1>Hours</h1>
+                    <p>Mondays & Wednesdays</p>
+                    <p>9:00 AM – 1:00 PM</p>
+                </div>                
+                <div class="sideBarColumn col-md-2">
+                    <ul id="sidebar">
+                        <li><img src="images/Photo_11.jpg" alt="" height="150" width="150"/></li>
+                        <li><img src="images/Photo_9.jpg" alt="" height="150" width="150"/></li>
+                        <li><img src="images/Photo_5.jpg" alt="" height="150" width="150"/></li>
+                    </ul>
                 </div>
             </div>
-        </div>   
+        </div>
 <!------------------------------------------------------------------------------
                               Start Footer
-------------------------------------------------------------------------------->   
-        <!-- TODO: Dynamically Load Footer -->       
+-------------------------------------------------------------------------------> 
+        <!-- TODO: Dynamically Load Footer -->         
         <footer class="footer">
             <div class ="container">
                 <div id="footerBar">

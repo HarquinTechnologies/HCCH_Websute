@@ -35,6 +35,13 @@ and open the template in the editor.
     float: right;
 }
 
+#content {
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
 #homeDonateMenu {
     float: right;
     font-family: Adobe Calson Pro;
@@ -54,10 +61,7 @@ and open the template in the editor.
     border-right: none;
 }
 
-
 #menu {
-    //float: left;
-    //width: 100%;
     height: 30px;
     clear: both;
     font-family: Adobe Calson Pro;
@@ -72,8 +76,6 @@ and open the template in the editor.
 #menu li {
     list-style: none;
     color: white;
-    /*border-right: 1px solid black;*/
-    //width: 192px;
     width: 20%;
     height: 30px;
     padding: 5px 0px;
@@ -95,24 +97,64 @@ and open the template in the editor.
     margin: 0 auto;
 }
 
+.mainTextColumn {
+    padding-top: 50px;
+}
+
+.mapColumn{
+    padding-top: 50px;
+}
+
+#map_canvas {
+    width: 450px;
+    height: 400px;
+    background-color: #CCC;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+}
+
+#sidebar {
+    padding-top: 50px;
+}
+   
+#sidebar li{
+    list-style:none;
+    display:inline-block;
+    padding-bottom: 25px;
+    float:right;
+}
+
+.infoBarColumn {
+    margin-top: 50px;
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(#ffffff, #f7c58b);
+    border: 2px solid #b0b0b0;
+}
+
 #nav{
-	position:relative;
-	z-index:99999999;
-	}	
+    position:relative;
+    z-index:99999999;
+}
+        
 #nav nav{
-	float: right;
+    float: right;
     width: auto;
 }
+
 #nav ul{
-	margin:0;
-	list-style:none;
-	font-family: Adobe Calson Pro;
-	}
+    margin:0;
+    list-style:none;
+    font-family: Adobe Calson Pro;
+}
+        
 #nav ul li{
-	display:inline-block;
-	float:left;
-	margin:0;
-	}
+    display:inline-block;
+    float:left;
+    margin:0;
+}
+        
 #nav ul li {
     color: white;
     float: left;
@@ -121,8 +163,8 @@ and open the template in the editor.
 }
 
 #nav ul li.active, #nav ul li:hover{
-	color:#fff;
-	background: linear-gradient(#d97807, #ce4507);
+    color:#fff;
+    background: linear-gradient(#d97807, #ce4507);
 }
 	
 #nav select {
@@ -130,8 +172,8 @@ and open the template in the editor.
     height: 28px;
     line-height: 28px;
     padding: 4px;
-	margin-top:22px;
-	float:left;
+    margin-top:22px;
+    float:left;
     width: 100%;
 }
 
@@ -145,26 +187,13 @@ and open the template in the editor.
     width: 620px;
 }
 
-.sidebar {
-    float: right;
-    width: 300px;
-}
-
-.sidebar img {
-    width: 300px;
-    clear: both;
-}
-
 #footerBar {
-    /*width: 960px;*/
-    //height: 30px;
     background: linear-gradient(#f7941e, #f26522);
 }
 
 #footerBar li {
     height: 30px;
     line-height: 30px;
-   // padding: 5px 0px;
     color: white;
     list-style: none;
     font-family: Adobe Calson Pro;
@@ -172,12 +201,11 @@ and open the template in the editor.
     text-align: center;
 }
 
-.footerLinkColumn {
+.footerLinkColumn, a {
     color: #5a5b5d;
     font-family: Adobe Calson Pro;
     font-weight: lighter;
-   /* width: 240px;*/
-    /*float: left;*/
+    text-decoration: none;
 }
 
 .mainMenuOption {
