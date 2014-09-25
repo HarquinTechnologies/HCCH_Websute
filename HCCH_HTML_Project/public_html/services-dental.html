@@ -5,51 +5,19 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <!-- Basic Needs -->
-        <title>Welcome To Orange Blossom Family Health</title>
-        <meta name="description" content=""/>
-        <meta name="author" content=""/>
-        
-        <!-- Mobile Specific Metas -->
-        <meta name="viewport" content="width=device-width, maximum-scale=1.0">
-
-        <!-- Compact View Support -->
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        
-        <!-- Import JavaScript Library and Modernizr -->
-        <script type="text/javascript" src="[JS library]"></script>
-	<script type="text/javascript" src="js/modernizr.custom.js"></script>
-        
-        <!-- Style Sheets -->
-        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <head> 
+<!------------------------------------------------------------------------------
+                              Load jQuery Library
+------------------------------------------------------------------------------->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     <body>
 <!------------------------------------------------------------------------------
                               Start Header
 ------------------------------------------------------------------------------->
-        <!-- TODO: Dynamically Load Header -->    
-        <div class="container">
-            <a href="index.html"><img id="logo" src="images/OBFHC_Logo2014smCAPSFontFINAL-01.png" alt="logo"></a>
-            <ul id="homeDonateMenu">
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </div>
-        <div class="container">
-            <div id="menu">
-                <ul class="">
-                  <li class=""><a href="shop.html">About Us</a></li>
-                  <li class=""><a href="submit.html">Services</a></li>
-                  <li class=""><a href="vote.html">Locations</a></li>
-                  <li class=""><a href="faq.html">FAQ</a></li>
-                  <li class=""><a href="contact-us.html">Contact Us</a></li>
-                </ul>
-            </div>      
-        </div>
+        <div id="header"></div>
 <!------------------------------------------------------------------------------
-                               End Header
+                               Start Content
 ------------------------------------------------------------------------------->
         <div class="container">
             <div class="row">
@@ -88,61 +56,14 @@ and open the template in the editor.
         </div>
 <!------------------------------------------------------------------------------
                               Start Footer
--------------------------------------------------------------------------------> 
-        <!-- TODO: Dynamically Load Footer --> 
-        <footer class="footer">
-            <div class ="container">
-                <div id="footerBar">
-                    <ul id="footerBarText">
-                        <li>...here to care for you.</li>
-                    </ul>
-                </div>
-                <div class="footerLinkColumn col-xs-4">
-                    <span class="mainMenuOption">About Us</span>
-                    <p>Our Purpose</p>
-                    <p>Our History</p>
-                    <p>Our Management</p>
-                    <p>Our Privacy Practices</p>
-                    <p>Our Providers</p>
-                    <span class="mainMenuOption">Contact Us</span>
-                </div>
-                <div class="footerLinkColumn col-xs-4">
-                    <span class="mainMenuOption">Services</span>
-                    <p><a href="services-behavioral-health.html">Behavioral Health</a></p>
-                    <p><a href="services-dental.html">Dental</a></p>
-                    <p><a href="services-medical.html">Medical</a></p>
-                    <p><a href="services-mobile-health.html">Mobile Health</a></p>
-                    <p><a href="services-pharmacy.html">Pharmacy</a></p>
-                    <p><a href="services-vision.html">Vision</a></p>           
-                </div>
-                <div class="footerLinkColumn  col-xs-4">
-                    <span class="mainMenuOption">Locations</span>
-                    <p><a href="locations-community-food-outreach-center.html">Community Food & Outreach Center</a></p>
-                    <p><a href="locations-community-hope-center.html">Community Hope Center</a></p>
-                    <p><a href="locations-harvest-time-international.html">Harvest Time International</a></p>
-                    <p><a href="locations-orange-blossom-trail.html">Orange Blossom Trail</a></p>
-                    <p><a href="locations-samaritan-resource-center.html">Samaritan Resource Center</a></p>
-                    <span class="mainMenuOption">FAQ</span>
-                </div>
-            </div>         
-            <div class="container">
-                <div class="row">
-                    <a href="index.html"><img id="bottomLogo" src="images/OBFHC_Logo2014smCAPSFontFINAL-01.png"  alt="Bottom Logo"></a>
-                    <img id="socialMediaIcons" src="images/icons_sprit.png"  alt="Social Media Icons">
-                </div>
-            </div>  
-        </footer>
+------------------------------------------------------------------------------->   
+        <div id="footer"></div>    
 <!------------------------------------------------------------------------------
-                              End Footer
-------------------------------------------------------------------------------->      
-        <!-- JavaScript and jQueries -->
-        <!-- TODO: Visit these, and weed out what we don't need -->
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="js/jquery.sticky.js"></script>
-        <script type="text/javascript" src="js/plugin.js"></script>
-        <script type="text/javascript" src="js/holder.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
+                              Load Header and Footer
+------------------------------------------------------------------------------->            
+        <script>
+            $("#header").load("header.html");            
+            $("#footer").load("footer.html");
+        </script>
     </body>
 </html>
