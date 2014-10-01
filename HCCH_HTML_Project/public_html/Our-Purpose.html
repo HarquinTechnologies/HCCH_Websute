@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head> 
+<!------------------------------------------------------------------------------
+                              Load jQuery Library
+------------------------------------------------------------------------------->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+<!------------------------------------------------------------------------------
+                              Start Header
+------------------------------------------------------------------------------->
+        <div id="header"></div>
+<!------------------------------------------------------------------------------
+                               Start Content
+------------------------------------------------------------------------------->
+        <div class="container">
+            <div class="row">
+                <div class="mainTextColumn col-md-10" id="content">
+                    <h2><span id="aboutUsPageHeaders">Our Purpose & Commitment</span></h2>          
+                    <p>Orange Blossom Family Health offers access to quality 
+                        health care services for low-income housed or homeless 
+                        residents of Orange, Osceola, and Seminole Counties. We 
+                        accept patients who are uninsured or covered by Medicaid, 
+                        Medicare, and some private insurances.
+                    </p>
+                    <br/>
+                    <p>We are committed to providing the highest quality of care to 
+                        all community residents in an atmosphere of dignity and 
+                        respect. We offer affordable patient centered services for 
+                        all community members regardless of their financial status 
+                    </p>
+                    <br/>
+                    <p>Our health centers are located throughout the tri-county area 
+                        and offer an array of different and vital health services. 
+                        Click on our locations tab to find an Orange Blossom Family 
+                        Health near you and to get further information! 
+                    </p>
+                    <br/>
+                </div>              
+                <div class="sideBarColumn col-md-2">
+                    <ul id="sidebar">
+                        <li><img src="images/photo_11.jpg" alt="" height="150" width="150"/></li>
+                        <li><img src="images/photo_9.jpg" alt="" height="150" width="150"/></li>
+                        <li><img src="images/photo_5.jpg" alt="" height="150" width="150"/></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------
+                              Start Footer
+------------------------------------------------------------------------------->   
+        <div id="footer"></div>    
+<!------------------------------------------------------------------------------
+                              Load Header and Footer
+------------------------------------------------------------------------------->            
+        <script>
+            $("#header").load("header.html");            
+            $("#footer").load("footer.html");
+        </script>
+    </body>
+</html>

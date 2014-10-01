@@ -12,6 +12,10 @@ and open the template in the editor.
     padding: 0;
 }
 
+#aboutUsPageHeaders {
+    color: #f26522;
+}
+
 .wrap {
     width: 960px;
     margin: 0 auto;
@@ -61,6 +65,31 @@ and open the template in the editor.
     border-right: none;
 }
 
+#locationsLinks {
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: lighter;
+    font-size: 12px;
+    height: 21px;
+    display: table;
+    margin: 0 auto;
+}
+
+#locationsLinks li{
+    list-style: none;
+    float: left;
+    padding: 2px;
+    border-right: thin solid #5a5b5d;
+}
+
+#locationsLinks li:last-child {
+    border-right: none;
+}
+
+#locationsLinks li a {
+    text-decoration: none;
+}
+
 #menu {
     height: 30px;
     clear: both;
@@ -97,6 +126,22 @@ and open the template in the editor.
     margin: 0 auto;
 }
 
+#subMenu {
+    visibility: hidden;
+    float: none;
+    background: linear-gradient(#f7941e, #f26522); 
+}
+
+#subMenu li {
+    height: 30px;
+    clear: both;
+    width: 100%;
+    float: none;
+}
+
+#subMenu li:hover {
+    background: linear-gradient(#d97807, #ce4507);
+}
 .mainTextColumn {
     padding-top: 50px;
 }
