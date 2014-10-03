@@ -1,4 +1,3 @@
-<<<<<<< HEAD:HCCH_HTML_Project/public_html/css/style.css
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -48,6 +47,12 @@ and open the template in the editor.
     width: 620px;
 }
 
+.mainMenuOption {
+    color: #f26522;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
+}
+
 .infoBarColumn {
     font-family: Adobe Calson Pro;
     color: #5a5b5d;
@@ -64,6 +69,10 @@ and open the template in the editor.
     color: #f26522;
     font-family: Adobe Calson Pro;
     font-weight: lighter;
+}
+
+#aboutUsPageHeaders {
+    color: #f26522;
 }
 
 #bottomLogo {
@@ -107,6 +116,31 @@ and open the template in the editor.
     font-size: 16px;
 }
 
+#locationsLinks {
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: lighter;
+    font-size: 12px;
+    height: 21px;
+    display: table;
+    margin: 0 auto;
+}
+
+#locationsLinks li{
+    list-style: none;
+    float: left;
+    padding: 2px;
+    border-right: thin solid #5a5b5d;
+}
+
+#locationsLinks li:last-child {
+    border-right: none;
+}
+
+#locationsLinks li a {
+    text-decoration: none;
+}
+
 #logo {
     width: 300px;
     float: left;
@@ -119,6 +153,14 @@ and open the template in the editor.
     -webkit-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
     -moz-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
     box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+}
+
+#menu {
+    height: 30px;
+    clear: both;
+    font-family: Adobe Calson Pro;
+    font-size: large;
+    background: linear-gradient(#f7941e, #f26522);
 }
 
 #menu {
@@ -218,133 +260,6 @@ and open the template in the editor.
     padding: 30px;
     display: block;
     float: right;
-=======
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Jun 17, 2014, 6:35:26 AM
-    Author     : Ashley_Quintin
-*/
-*{
-    margin: 0;
-    padding: 0;
-}
-
-#aboutUsPageHeaders {
-    color: #f26522;
-}
-
-.wrap {
-    width: 960px;
-    margin: 0 auto;
-}
-
-#logo {
-    width: 300px;
-    float: left;
-}
-
-#bottomLogo {
-    clear: left;
-    width: 200px;
-    float: left;
-}
-
-#socialMediaIcons {
-    width: 350px;
-    padding: 30px;
-    display: block;
-    float: right;
-}
-
-#content {
-    font-family: Adobe Calson Pro;
-    color: #5a5b5d;
-    font-weight: lighter;
-    font-size: 14px;
-}
-
-#homeDonateMenu {
-    float: right;
-    font-family: Adobe Calson Pro;
-    color: #5a5b5d;
-    font-weight: lighter;
-    font-size: 16px;
-}
-
-#homeDonateMenu li{
-    list-style: none;
-    float: left;
-    padding: 2px;
-    border-right: medium solid #5a5b5d;
-}
-
-#homeDonateMenu li:last-child {
-    border-right: none;
-}
-
-#locationsLinks {
-    font-family: Adobe Calson Pro;
-    color: #5a5b5d;
-    font-weight: lighter;
-    font-size: 12px;
-    height: 21px;
-    display: table;
-    margin: 0 auto;
-}
-
-#locationsLinks li{
-    list-style: none;
-    float: left;
-    padding: 2px;
-    border-right: thin solid #5a5b5d;
-}
-
-#locationsLinks li:last-child {
-    border-right: none;
-}
-
-#locationsLinks li a {
-    text-decoration: none;
-}
-
-#menu {
-    height: 30px;
-    clear: both;
-    font-family: Adobe Calson Pro;
-    font-size: large;
-    background: linear-gradient(#f7941e, #f26522);
-}
-
-#menu ul {
-    width: 100%;
-}
-
-#menu li {
-    list-style: none;
-    color: white;
-    width: 20%;
-    height: 30px;
-    padding: 5px 0px;
-    text-align: center;
-    float: left;
-}
-
-#menu li:last-child {
-    border-right: none;
-}
-
-#menu li:hover {
-    background: linear-gradient(#d97807, #ce4507);
-}
-
-#menu ul li a {
-    color: white;
-    text-decoration: none;
-    margin: 0 auto;
 }
 
 #subMenu {
@@ -362,121 +277,4 @@ and open the template in the editor.
 
 #subMenu li:hover {
     background: linear-gradient(#d97807, #ce4507);
-}
-.mainTextColumn {
-    padding-top: 50px;
-}
-
-.mapColumn{
-    padding-top: 50px;
-}
-
-#map_canvas {
-    width: 450px;
-    height: 400px;
-    background-color: #CCC;
-    -webkit-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
-    -moz-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
-    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
-}
-
-#sidebar {
-    padding-top: 50px;
-}
-   
-#sidebar li{
-    list-style:none;
-    display:inline-block;
-    padding-bottom: 25px;
-    float:right;
-}
-
-.infoBarColumn {
-    margin-top: 50px;
-    width: 300px;
-    height: 500px;
-    background: linear-gradient(#ffffff, #f7c58b);
-    border: 2px solid #b0b0b0;
-}
-
-#nav{
-    position:relative;
-    z-index:99999999;
-}
-        
-#nav nav{
-    float: right;
-    width: auto;
-}
-
-#nav ul{
-    margin:0;
-    list-style:none;
-    font-family: Adobe Calson Pro;
-}
-        
-#nav ul li{
-    display:inline-block;
-    float:left;
-    margin:0;
-}
-        
-#nav ul li {
-    color: white;
-    float: left;
-    font-size: large;
-    background: linear-gradient(#f7941e, #f26522);
-}
-
-#nav ul li.active, #nav ul li:hover{
-    color:#fff;
-    background: linear-gradient(#d97807, #ce4507);
-}
-	
-#nav select {
-    display: none;
-    height: 28px;
-    line-height: 28px;
-    padding: 4px;
-    margin-top:22px;
-    float:left;
-    width: 100%;
-}
-
-.mainContent {
-    clear: left;
-    float: left;
-    width: 620px;
-}
-
-.mainContent img {
-    width: 620px;
-}
-
-#footerBar {
-    background: linear-gradient(#f7941e, #f26522);
-}
-
-#footerBar li {
-    height: 30px;
-    line-height: 30px;
-    color: white;
-    list-style: none;
-    font-family: Adobe Calson Pro;
-    font-size: large;
-    text-align: center;
-}
-
-.footerLinkColumn, a {
-    color: #5a5b5d;
-    font-family: Adobe Calson Pro;
-    font-weight: lighter;
-    text-decoration: none;
-}
-
-.mainMenuOption {
-    color: #f26522;
-    font-family: Adobe Calson Pro;
-    font-weight: lighter;
->>>>>>> origin/master:HCCH_HTML_Project/public_html/style.css
 }
