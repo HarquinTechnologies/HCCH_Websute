@@ -7,6 +7,7 @@ and open the template in the editor.
     Created on : Jun 17, 2014, 6:35:26 AM
     Author     : Ashley_Quintin
 */
+
 *{
     margin: 0;
     padding: 0;
@@ -17,22 +18,57 @@ and open the template in the editor.
     margin: 0 auto;
 }
 
-#logo {
+.mainTextColumn {
+    padding-top: 50px;
+}
+
+.mapColumn{
+    padding-top: 50px;
+}
+
+.infoBarColumn {
+    margin-top: 50px;
+    /* TODO: Fix this! This is used to fix the spacing with the Sidebar on the
+    locations pages. -Mike E. */
+    margin-right: 36px;
     width: 300px;
+    height: 500px;
+    background: linear-gradient(#ffffff, #f7c58b);
+    border: 2px solid #b0b0b0;
+}
+
+.mainContent {
+    clear: left;
     float: left;
+    width: 620px;
+}
+
+.mainContent img {
+    width: 620px;
+}
+
+.infoBarColumn {
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+}
+
+.footerLinkColumn, a {
+    color: #5a5b5d;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.mainMenuOption {
+    color: #f26522;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
 }
 
 #bottomLogo {
     clear: left;
     width: 200px;
     float: left;
-}
-
-#socialMediaIcons {
-    width: 350px;
-    padding: 30px;
-    display: block;
-    float: right;
 }
 
 #content {
@@ -42,7 +78,27 @@ and open the template in the editor.
     font-size: 14px;
 }
 
+#FAQHeader{
+    font-family: Adobe Calson Pro;
+    color: #f26522;
+}
+
+#footerBar {
+    background: linear-gradient(#f7941e, #f26522);
+}
+
+#footerBar li {
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    list-style: none;
+    font-family: Adobe Calson Pro;
+    font-size: large;
+    text-align: center;
+}
+
 #homeDonateMenu {
+    list-style: none;
     float: right;
     font-family: Adobe Calson Pro;
     color: #5a5b5d;
@@ -50,15 +106,18 @@ and open the template in the editor.
     font-size: 16px;
 }
 
-#homeDonateMenu li{
-    list-style: none;
+#logo {
+    width: 300px;
     float: left;
-    padding: 2px;
-    border-right: medium solid #5a5b5d;
 }
 
-#homeDonateMenu li:last-child {
-    border-right: none;
+#map_canvas {
+    width: 450px;
+    height: 400px;
+    background-color: #CCC;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
 }
 
 #menu {
@@ -97,47 +156,6 @@ and open the template in the editor.
     margin: 0 auto;
 }
 
-.mainTextColumn {
-    padding-top: 50px;
-}
-
-.mapColumn{
-    padding-top: 50px;
-}
-
-#map_canvas {
-    width: 450px;
-    height: 400px;
-    background-color: #CCC;
-    -webkit-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
-    -moz-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
-    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
-}
-
-#sidebar {
-    padding-top: 50px;
-}
-   
-#sidebar li{
-    list-style:none;
-    display:inline-block;
-    padding-bottom: 25px;
-    float:right;
-}
-
-.infoBarColumn {
-    margin-top: 50px;
-    width: 300px;
-    height: 500px;
-    background: linear-gradient(#ffffff, #f7c58b);
-    border: 2px solid #b0b0b0;
-}
-
-#nav{
-    position:relative;
-    z-index:99999999;
-}
-        
 #nav nav{
     float: right;
     width: auto;
@@ -148,13 +166,13 @@ and open the template in the editor.
     list-style:none;
     font-family: Adobe Calson Pro;
 }
-        
+
 #nav ul li{
     display:inline-block;
     float:left;
     margin:0;
 }
-        
+
 #nav ul li {
     color: white;
     float: left;
@@ -166,7 +184,7 @@ and open the template in the editor.
     color:#fff;
     background: linear-gradient(#d97807, #ce4507);
 }
-	
+
 #nav select {
     display: none;
     height: 28px;
@@ -177,39 +195,26 @@ and open the template in the editor.
     width: 100%;
 }
 
-.mainContent {
-    clear: left;
-    float: left;
-    width: 620px;
-}
-
-.mainContent img {
-    width: 620px;
-}
-
-#footerBar {
-    background: linear-gradient(#f7941e, #f26522);
-}
-
-#footerBar li {
-    height: 30px;
-    line-height: 30px;
-    color: white;
-    list-style: none;
-    font-family: Adobe Calson Pro;
-    font-size: large;
-    text-align: center;
-}
-
-.footerLinkColumn, a {
-    color: #5a5b5d;
-    font-family: Adobe Calson Pro;
-    font-weight: lighter;
-    text-decoration: none;
-}
-
-.mainMenuOption {
+#NavigatorHeader {
+    font-family: Futura BdCn BT;
+    font-variant:small-caps;
     color: #f26522;
-    font-family: Adobe Calson Pro;
-    font-weight: lighter;
+}
+
+#sidebar {
+    padding-top: 50px;
+}
+
+#sidebar li{
+    list-style:none;
+    display:inline-block;
+    padding-bottom: 25px;
+    float:right;
+}
+
+#socialMediaIcons {
+    width: 350px;
+    padding: 30px;
+    display: block;
+    float: right;
 }
