@@ -13,6 +13,26 @@ and open the template in the editor.
     padding: 0;
 }
 
+.bottomOfContact {
+    float: left;
+    width: 30%;
+   // margin-top: 5px;
+    //margin-bottom: 10px;
+    margin: 10px 2px;
+}
+
+.contactUsHeader {
+    color: #f26522;
+    font-family: Adobe Calson Pro;
+    font-weight: bold;
+}
+
+.footerLinkColumn, a {
+    color: #5a5b5d;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
+    text-decoration: none;
+}
 .wrap {
     width: 960px;
     margin: 0 auto;
@@ -35,6 +55,45 @@ and open the template in the editor.
     height: 500px;
     background: linear-gradient(#ffffff, #f7c58b);
     border: 2px solid #b0b0b0;
+}
+
+
+
+.formTitle {
+    color: #f26522;
+    font-family: Futura BdCn BT;
+    font-variant:small-caps;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.formTitle span {
+  display: inline-block;
+  position: relative;  
+}
+.formTitle span:before,
+.formTitle span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #f26522;
+  border-top: 1px solid #f26522;
+  top: 50%;
+  width: 65px;
+}
+
+.formTitle span:before {
+  right: 100%;
+  margin-right: 5px;
+}
+.formTitle span:after {
+  left: 100%;
+  margin-left: 5px;
+}
+
+.mapColumn{
+    padding-top: 50px;
 }
 
 .mainContent {
@@ -81,6 +140,20 @@ and open the template in the editor.
     float: left;
 }
 
+#contact_map {
+    width: 350px;
+    height: 350px;
+    border: 5px solid;
+    border-radius: 100%;
+    border-color: #f26522;
+}
+
+#contactUsParagraph {
+    width: 65%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 #content {
     font-family: Adobe Calson Pro;
     color: #5a5b5d;
@@ -88,6 +161,47 @@ and open the template in the editor.
     font-size: 14px;
 }
 
+#emailForm {
+    margin-top: 50px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    float: right;
+    background: linear-gradient(#ffffff, #f7c58b);
+    border: 2px solid #b0b0b0;
+    margin-bottom: 50px;
+}
+
+#emailForm input {
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: #f7941e;
+    width: 380px;
+    height: 40px;
+    background-color: white;
+}
+
+#emailForm textarea {
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: #f7941e;
+    width: 380px;
+    height: 160px;
+}
+
+#emailForm input:last-child {
+    background-color: #f7941e;
+    width: 100px;
+    height: 28px;
+    font-size: medium;
+    line-height: 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    -webkit-box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.6);
+    box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.6);
+}
 #FAQHeader{
     font-family: Adobe Calson Pro;
     color: #f26522;
@@ -105,6 +219,21 @@ and open the template in the editor.
     font-family: Adobe Calson Pro;
     font-size: large;
     text-align: center;
+}
+
+#formTitle2 span:before,
+#formTitle2 span:after {
+    width: 105px;
+}
+
+#formTitle3 span:before,
+#formTitle3 span:after {
+    width: 118px;
+}
+
+#formTitle4 span:before,
+#formTitle4 span:after {
+    width: 130px;
 }
 
 #homeDonateMenu {
