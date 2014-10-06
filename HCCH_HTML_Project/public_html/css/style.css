@@ -392,7 +392,7 @@ and open the template in the editor.
 }
 
 #subMenu {
-    visibility: hidden;
+    //visibility: hidden;
     float: none;
     background: linear-gradient(#f7941e, #f26522); 
 }
@@ -402,6 +402,10 @@ and open the template in the editor.
     clear: both;
     width: 100%;
     float: none;
+    background: linear-gradient(#f7941e, #f26522);
+    position: relative;
+    display: none;
+    z-index: 9999;
 }
 
 #subMenu li:hover {
