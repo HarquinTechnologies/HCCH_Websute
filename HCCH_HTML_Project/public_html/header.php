@@ -53,7 +53,7 @@ and open the template in the editor.
                   <li class=""><a href="services-behavioral-health.php">Services</a></li>
                   <li class=""><a href="locations-community-food-outreach-center.php">Locations</a></li>
                   <li class=""><a href="faq.php">FAQ</a></li>
-                  <li class=""><a href="contact-us.php">Contact Us</a></li>
+                  <li class=""><a href="Contact-Us.php">Contact Us</a></li>
                 </ul>
             </div>      
         </div>
