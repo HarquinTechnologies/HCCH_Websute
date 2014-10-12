@@ -32,7 +32,7 @@ and open the template in the editor.
                     </p>
                     <br/>
                 </div>              
-                <div class="sideBarColumn col-md-2">
+                <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
                         <li><img src="images/photo_11.jpg" alt="" height="150" width="150"/></li>
                         <li><img src="images/photo_9.jpg" alt="" height="150" width="150"/></li>

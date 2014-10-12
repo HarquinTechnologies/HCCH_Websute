@@ -22,13 +22,7 @@ and open the template in the editor.
         <script src="[JS library]"></script>
 	<script src="js/modernizr.custom.js"></script>
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        
-        <!------------------------------------------------------------------------------
-                              Load jQuery Library
-------------------------------------------------------------------------------->
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-
-          
+                 
         <!-- Style Sheets -->
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/style.css">       
@@ -41,19 +35,36 @@ and open the template in the editor.
             </ul>
         </div>
         <div class="container">
-            <div id="menu">
-                <ul>
+            <div class="menu">
+                <ul class="dropdown">
                   <li>
                       <a href="about-our-purpose.php">About Us</a>
-                      <!--<ul id="subMenu">
-                        <li><a href="Our-Purpose.php">Our Purpose</a></li>
-                        <li><a href="Our-Purpose.php">Our History</a> </li>
-                      </ul> -->
+                      <ul class="subMenu">
+                          <li><a href="about-our-purpose.php">Our Purpose</a></li>
+                          <li><a href="about-our-history.php">Our History</a></li>
+                      </ul>
                   </li>
-                  <li class=""><a href="services-behavioral-health.php">Services</a></li>
-                  <li class=""><a href="locations-community-food-outreach-center.php">Locations</a></li>
-                  <li class=""><a href="faq.php">FAQ</a></li>
-                  <li class=""><a href="Contact-Us.php">Contact Us</a></li>
+                  <li>
+                      <a href="services-behavioral-health.php">Services</a>
+                      <ul class="subMenu">
+                          <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
+                          <li><a href="services-medical.php">Medical</a></li>
+                          <li><a href="services-dental.php">Dental</a></li>
+                          <li><a href="services-vision.php">Vision</a></li>
+                          <li><a href="services-pharmacy.php">Pharmacy</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="locations-orange-blossom-trail.php">Locations</a>
+                      <ul class="subMenu">
+                          <li><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></li>
+                          <li><a href="locations-community-food-outreach-center.php">Outreach Center</a></li>
+                          <li><a href="locations-community-hope-center.php">Hope Center</a></li>
+                          <li><a href="locations-harvest-time-international.php">Harvest Time</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="faq.php">FAQ</a></li>
+                  <li><a href="Contact-Us.php">Contact Us</a></li>
                 </ul>
             </div>      
         </div>

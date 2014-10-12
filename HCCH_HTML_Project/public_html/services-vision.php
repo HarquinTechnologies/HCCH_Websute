@@ -41,7 +41,7 @@ and open the template in the editor.
                     <h2 id="NavigatorHeader">Vision Services Provided at the Following Locations:</h2>
                     <p><a href="locations-orange-blossom-trail.html">Orange Blossom Trail</a></p>
                 </div>              
-                <div class="sideBarColumn col-md-2">
+                <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
                         <li><img src="images/photo_11.jpg" alt="Sidebar Photo 11"/></li>
                         <li><img src="images/photo_9.jpg" alt="Sidebar Photo 9"/></li>

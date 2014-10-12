@@ -10,7 +10,7 @@ and open the template in the editor.
 ------------------------------------------------------------------------------->
         <div class="container">
             <div class="row">
-                <div class="mainTextColumn col-md-12" id="content">
+                <div class="col-md-12" id="content">
                 <img class="hidden-sm hidden-xs" src="images/home-banner.png"  alt="Home Banner">
                 <br/>
                 <br/>

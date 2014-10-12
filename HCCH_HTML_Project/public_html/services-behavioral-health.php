@@ -52,7 +52,7 @@ and open the template in the editor.
                     <p><a href="locations-community-hope-center.html">Community Hope Center</a></p>
                     <p><a href="locations-orange-blossom-trail.html">Orange Blossom Trail</a></p>
                 </div>              
-                <div class="sideBarColumn col-md-2">
+                <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
                         <li><img src="images/photo_11.jpg" alt="Sidebar Photo 11"/></li>
                         <li><img src="images/photo_9.jpg" alt="Sidebar Photo 9"/></li>

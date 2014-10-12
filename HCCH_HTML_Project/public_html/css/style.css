@@ -144,6 +144,12 @@ and open the template in the editor.
     width: 350px;
     height: 350px;
     border: 5px solid;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 100%; 
+
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 100%; 
+    
     border-radius: 100%;
     border-color: #f26522;
 }
@@ -284,7 +290,7 @@ and open the template in the editor.
     box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
 }
 
-#menu {
+.menu {
     height: 30px;
     clear: both;
     font-family: Adobe Calson Pro;
@@ -292,19 +298,11 @@ and open the template in the editor.
     background: linear-gradient(#f7941e, #f26522);
 }
 
-#menu {
-    height: 30px;
-    clear: both;
-    font-family: Adobe Calson Pro;
-    font-size: large;
-    background: linear-gradient(#f7941e, #f26522);
-}
-
-#menu ul {
+.menu ul {
     width: 100%;
 }
 
-#menu li {
+.menu li {
     list-style: none;
     color: white;
     width: 20%;
@@ -314,15 +312,15 @@ and open the template in the editor.
     float: left;
 }
 
-#menu li:last-child {
+.menu li:last-child {
     border-right: none;
 }
 
-#menu li:hover {
+.menu li:hover {
     background: linear-gradient(#d97807, #ce4507);
 }
 
-#menu ul li a {
+.menu ul li a {
     color: white;
     text-decoration: none;
     margin: 0 auto;
@@ -391,23 +389,26 @@ and open the template in the editor.
     float: right;
 }
 
-#subMenu {
-    //visibility: hidden;
+ul.dropdown li:hover > ul { 
+    visibility: visible; 
+}
+
+.subMenu {
+    visibility: hidden;
     float: none;
     background: linear-gradient(#f7941e, #f26522); 
 }
 
-#subMenu li {
+.subMenu li {
     height: 30px;
     clear: both;
     width: 100%;
     float: none;
     background: linear-gradient(#f7941e, #f26522);
     position: relative;
-    display: none;
     z-index: 9999;
 }
 
-#subMenu li:hover {
+.subMenu li:hover {
     background: linear-gradient(#d97807, #ce4507);
 }

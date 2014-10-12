@@ -64,7 +64,7 @@ and open the template in the editor.
                     <p>Monday & Thursday</p>
                     <p>8:00 AM - 5:00 PM</p>
                 </div>                
-                <div class="sideBarColumn col-md-2">
+                <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
                         <li><img src="images/photo_2.jpg" alt="Sidebar Photo 2"/></li>
                         <li><img src="images/photo_3.jpg" alt="Sidebar Photo 3"/></li>
