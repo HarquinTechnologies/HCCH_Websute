@@ -11,7 +11,7 @@ and open the template in the editor.
         <div class="container">
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
-                    <h2 id="NavigatorHeader">MEDICAL</h2>          
+                    <h2 id="NavigatorHeader">Medical</h2>          
                     <p>Primary Medical Care is one of the foundations of Orange 
                         Blossom Family Health. Early detection and treatment are 
                         crucial in managing disease, which is why we emphasize a 
@@ -54,11 +54,10 @@ and open the template in the editor.
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Medical Services Provided at the Following Locations:</h2>
-                    <p><a href="locations-community-food-outreach-center.html">Community Food & Outreach Center</a></p>
-                    <p><a href="locations-community-hope-center.html">Community Hope Center</a></p>
-                    <p><a href="locations-harvest-time-international.html">Harvest Time International</a></p>
-                    <p><a href="locations-orange-blossom-trail.html">Orange Blossom Trail</a></p>
-                    <p><a href="locations-samaritan-resource-center.html">Samaritan Resource Center</a></p>
+                    <p><a href="locations-community-food-outreach-center.php">Community Food & Outreach Center</a></p>
+                    <p><a href="locations-community-hope-center.php">Community Hope Center</a></p>
+                    <p><a href="locations-harvest-time-international.php">Harvest Time International</a></p>
+                    <p><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></p>
                 </div>              
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">

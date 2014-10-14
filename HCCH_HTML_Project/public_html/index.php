@@ -37,10 +37,10 @@ and open the template in the editor.
                 <br/>
                 <br/>
                 <ul id="locationsLinks">
-                    <li><a href="">Primary Orlando Location</a></li>
-                    <li><a href="">at Community Food and Outreach Center</a></li>
-                    <li><a href="">at Community Hope Center</a></li>
-                    <li><a href="">at Harvest Time International</a></li>
+                    <li><a href="locations-community-food-outreach-center.php">Community Food & Outreach Center</a></li>
+                    <li><a href="locations-community-hope-center.php">Community Hope Center</a></li>
+                    <li><a href="locations-harvest-time-international.php">Harvest Time International</a></li>
+                    <li><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></li>
                 </ul>
                 </div>
             </div>

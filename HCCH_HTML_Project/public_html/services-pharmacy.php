@@ -34,7 +34,7 @@ and open the template in the editor.
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Pharmacy Services Provided at the Following Locations:</h2>
-                    <p><a href="locations-orange-blossom-trail.html">Orange Blossom Trail</a></p>
+                    <p><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></p>
                 </div>              
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">

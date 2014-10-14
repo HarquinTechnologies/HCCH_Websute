@@ -31,7 +31,10 @@ and open the template in the editor.
         <div class="container">
             <a href="index.php"><img id="logo" src="images/logo.png" alt="logo"></a>
             <ul id="homeDonateMenu">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>             
+                <br/>
+                <li><a href="http://www.hcch.org/">Interested in our Services for the homeless?</li>                
+                <li>Click here for our organization's page.</a></li>
             </ul>
         </div>
         <div class="container">
