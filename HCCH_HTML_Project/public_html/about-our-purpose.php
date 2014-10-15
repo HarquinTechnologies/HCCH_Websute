@@ -11,7 +11,7 @@ and open the template in the editor.
         <div class="container">
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
-                    <h2><span id="aboutUsPageHeaders">Our Purpose & Commitment</span></h2>          
+                    <h2 id="NavigatorHeader">Our Purpose & Commitment</h2>          
                     <p>Orange Blossom Family Health offers access to quality 
                         health care services for low-income housed or homeless 
                         residents of Orange, Osceola, and Seminole Counties. We 

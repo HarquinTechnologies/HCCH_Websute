@@ -15,8 +15,7 @@ and open the template in the editor.
                 <br/>
                 <br/>
                 <br/>
-                <h2><span class="mainMenuOption">ORANGE BLOSSOM FAMILY HEALTH</span></h2>
-                <br/>
+                <h2 id="NavigatorHeader">Orange Blossom Family Health</h2>
                 <p>Orange Blossom Family Health offers access to quality health 
                     care services in an atmosphere of dignity and respect for 
                     low-income housed or homeless residents of Orange, Osceola, 

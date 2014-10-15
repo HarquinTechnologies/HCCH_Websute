@@ -15,7 +15,7 @@ and open the template in the editor.
         <div class="container">
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
-                    <h2><span id="aboutUsPageHeaders">Our History</span></h2>          
+                    <h2 id="NavigatorHeader">Our History</h2>          
                     <p>Our health centers are governed by a non-profit organization 
                         called <a href="http://www.hcch.org" style="text-decoration: underline;">Health Care Center for the Homeless</a>(HCCH), which 
                         was founded in 1993. After operating out of several different 

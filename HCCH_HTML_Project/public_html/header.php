@@ -44,7 +44,9 @@ and open the template in the editor.
                       <a href="about-our-purpose.php">About Us</a>
                       <ul class="subMenu">
                           <li><a href="about-our-purpose.php">Our Purpose</a></li>
-                          <li><a href="about-our-history.php">Our History</a></li>
+                          <li><a href="about-our-history.php">Our History</a></li>                          
+                          <li><a href="NOTICE-OF-PRIVACY-POLICY.pdf" target="_blank">Our Privacy Practices</a></li>
+                          <li><a href="about-our-purpose.php">Our Providers</a></li>
                       </ul>
                   </li>
                   <li>

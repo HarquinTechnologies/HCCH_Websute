@@ -9,8 +9,9 @@
                     <a href="about-our-purpose.php"><span class="mainMenuOption">About Us</span></a>
                     <p><a href="about-our-purpose.php">Our Purpose</a></p>
                     <p><a href="about-our-history.php">Our History</a></p>
-                    <p><a href="about-our-purpose.php">Our Management</a></p>
-                    <p><a href="about-our-purpose.php">Our Privacy Practices</a></p>
+                    <!-- Asked to be removed by Katie. 10/03/2014- Quintin E.
+                    <p><a href="about-our-purpose.php">Our Management</a></p> -->
+                    <p><a href="NOTICE-OF-PRIVACY-POLICY.pdf" target="_blank">Our Privacy Practices</a></p>
                     <p><a href="about-our-purpose.php">Our Providers</a></p>
                     <a href="contact-us.php"><span class="mainMenuOption">Contact Us</span></a>
                 </div>
