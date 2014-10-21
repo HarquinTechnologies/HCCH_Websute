@@ -20,12 +20,18 @@ and open the template in the editor.
         
         <!-- Import JavaScript Library and Modernizr -->
         <script src="[JS library]"></script>
-	<script src="js/modernizr.custom.js"></script>
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<!--<script src="js/modernizr.custom.js"></script>-->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>  
+	<script src="js/responsive.js"></script> 
+        <script src="js/jquery.slicknav.js"></script>       
                  
         <!-- Style Sheets -->
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="css/style.css">       
+        <link rel="stylesheet" href="css/style.css">     
+        <link rel="stylesheet" href="css/slicknav.css">  
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     </head>
     <body>        
         <div class="container">
@@ -38,7 +44,7 @@ and open the template in the editor.
             </ul>
         </div>
         <div class="container">
-            <div class="menu">
+            <div id="desktop-menu">
                 <ul class="dropdown">
                   <li>
                       <a href="about-our-purpose.php">About Us</a>
@@ -71,6 +77,42 @@ and open the template in the editor.
                   <li><a href="faq.php">FAQ</a></li>
                   <li><a href="Contact-Us.php">Contact Us</a></li>
                 </ul>
+            </div>
+            
+            <div class="slicknav_menu">
+                <ul id="mobile-menu">
+                <li>About Us
+                    <ul>
+                        <li><a href="about-our-purpose.php">Our Purpose</a></li>
+                        <li><a href="about-our-history.php">Our History</a></li>   
+                        <li><a href="about-our-purpose.php">Our Providers</a></li>
+                    </ul>
+                </li>
+                <li>Services
+                    <ul>
+                        <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
+                        <li><a href="services-medical.php">Medical</a></li>
+                        <li><a href="services-dental.php">Dental</a></li>
+                        <li><a href="services-vision.php">Vision</a></li>
+                        <li><a href="services-pharmacy.php">Pharmacy</a></li>
+                    </ul>
+                </li>
+                <li>Locations
+                    <ul>
+                        <li><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></li>
+                        <li><a href="locations-community-food-outreach-center.php">Outreach Center</a></li>
+                        <li><a href="locations-community-hope-center.php">Hope Center</a></li>
+                        <li><a href="locations-harvest-time-international.php">Harvest Time</a></li>
+                    </ul>
+                </li>
+                <li><a href="faq.php">FAQ</a></li>
+                <li><a href="Contact-Us.php">Contact Us</a></li>
+                </ul>
             </div>      
-        </div>
-
+        </div>        
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+                    $('#mobile-menu').slicknav();
+            });
+        </script>
