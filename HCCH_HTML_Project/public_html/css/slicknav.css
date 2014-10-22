@@ -2,7 +2,7 @@
     Mobile Menu Core Style
 */
 
-.slicknav_btn { position: relative; display: block; vertical-align: middle; float: right; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
+.slicknav_btn { position: relative; display: block; vertical-align: middle; float: left; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
 .slicknav_menu  .slicknav_menutxt { display: block; line-height: 1.188em; float: left; }
 .slicknav_menu .slicknav_icon { float: left; margin: 0.188em 0 0 0.438em; }
 .slicknav_menu .slicknav_no-text { margin: 0 }
@@ -52,7 +52,7 @@
   background-color: #f5f5f5;
 }
 .slicknav_menu {
-    background:#4c4c4c;
+    background:linear-gradient(#f7941e, #f26522);
     padding:5px;
 }
 .slicknav_nav {
@@ -88,7 +88,8 @@
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background:#ccc;
+    //background:#ccc;
+    background: linear-gradient(#f7941e, #f26522);
     color:#fff;
 }
 .slicknav_nav a:hover{
@@ -100,4 +101,21 @@
 }
 .slicknav_nav .slicknav_txtnode {
      margin-left:15px;   
+}
+
+
+#mobile-menu {
+    height: 30px;
+    clear: both;
+    font-size: large;
+    background: linear-gradient(#f7941e, #f26522);
+    display:none;
+}
+
+#mobile-menu li {
+    color: white;
+}
+
+#mobile-menu li a {
+    color: white;
 }

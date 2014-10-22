@@ -190,6 +190,10 @@ and open the template in the editor.
     float: left;
 }
 
+#desktop-menu li ul li {
+    width: 100%;
+}
+
 #desktop-menu li:last-child {
     border-right: none;
 }
@@ -286,6 +290,7 @@ and open the template in the editor.
     color: #5a5b5d;
     font-weight: lighter;
     font-size: 16px;
+    text-align: right;
 }
 
 #locationsLinks {
