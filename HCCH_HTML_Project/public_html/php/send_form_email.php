@@ -6,9 +6,9 @@ if(isset($_POST['email'])) {
  
     //$email_to = "info@hcch.org";
  
-    $email_to = "quintin_evans@hotmail.com";
+    $email_to = "info@hcch.org";
     
-    $email_subject = "Info Request";
+    $email_subject = "Orange Blossom Family Health Information Request";
  
      
  

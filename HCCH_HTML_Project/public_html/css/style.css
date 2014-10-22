@@ -201,11 +201,6 @@ and open the template in the editor.
     background: linear-gradient(#d97807, #ce4507);
 }
 
-#desktop-menu li ul li {
-    width: 100%
-}
-
-
 #desktop-menu ul li a {
     color: white;
     text-decoration: none;

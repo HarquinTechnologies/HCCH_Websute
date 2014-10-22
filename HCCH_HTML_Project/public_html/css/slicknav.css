@@ -107,6 +107,7 @@
     clear: both;
     font-size: large;
     background: linear-gradient(#f7941e, #f26522);
+    display:none;
 }
 
 #mobile-menu li {
