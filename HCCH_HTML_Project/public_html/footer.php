@@ -47,14 +47,4 @@
 <!------------------------------------------------------------------------------
                               End Footer
 ------------------------------------------------------------------------------->      
-        <!-- JavaScript and jQueries -->
-        <!-- TODO: Visit these, and weed out what we don't need -->
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery.sticky.js"></script>
-        <script type="text/javascript" src="js/plugin.js"></script>
-        <script type="text/javascript" src="js/holder.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
-    </body>
 </html>

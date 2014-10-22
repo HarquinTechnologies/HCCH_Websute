@@ -19,19 +19,17 @@ and open the template in the editor.
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         
         <!-- Import JavaScript Library and Modernizr -->
-        <script src="[JS library]"></script>
-	<!--<script src="js/modernizr.custom.js"></script>-->
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>  
-	<script src="js/responsive.js"></script> 
-        <script src="js/jquery.slicknav.js"></script>       
-                 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <script src="js/jquery.slicknav.js"></script>  
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>   
+        
         <!-- Style Sheets -->
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/style.css">     
         <link rel="stylesheet" href="css/slicknav.css">  
         
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     </head>
     <body>        
         <div class="container">
@@ -77,8 +75,9 @@ and open the template in the editor.
                   <li><a href="faq.php">FAQ</a></li>
                   <li><a href="Contact-Us.php">Contact Us</a></li>
                 </ul>
-            </div>
-            
+            </div>            
+        </div> 
+        <div id="demo1">
             <div class="slicknav_menu">
                 <ul id="mobile-menu">
                 <li>About Us
@@ -110,9 +109,11 @@ and open the template in the editor.
                 </ul>
             </div>      
         </div>        
-        
-        <script type="text/javascript">
+        </div>
+       <script type="text/javascript">
             $(document).ready(function(){
-                    $('#mobile-menu').slicknav();
+                    $('#mobile-menu').slicknav({
+                        prependTo:'#demo1'
+                    });
             });
-        </script>
+        </script> 
