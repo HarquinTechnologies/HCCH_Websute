@@ -167,7 +167,6 @@ and open the template in the editor.
     font-size: 14px;
 }
 
-
 #desktop-menu {
     height: 30px;
     clear: both;
@@ -201,6 +200,11 @@ and open the template in the editor.
 #desktop-menu li:hover {
     background: linear-gradient(#d97807, #ce4507);
 }
+
+#desktop-menu li ul li {
+    width: 100%
+}
+
 
 #desktop-menu ul li a {
     color: white;
@@ -341,17 +345,17 @@ body {
 }
 
 .slicknav_menu {
-	display:none;
+    display:none;
 }
 
 @media screen and (max-width: 40em) {
-	.js #desktop-menu {
-		display:none;
-	}
-	
-	.js .slicknav_menu {
-		display:block;
-	}
+    .js #desktop-menu {
+            display:none;
+    }
+
+    .js .slicknav_menu {
+            display:block;
+    }
 }
 // End Slick Nav
 #nav nav{
