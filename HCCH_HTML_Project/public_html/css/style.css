@@ -352,6 +352,51 @@ body {
             display:block;
     }
 }
+
+@media screen and (max-width: 450px) {
+    
+    .infoBarColumn {
+        margin-top: 50px;
+        /* TODO: Fix this! This is used to fix the spacing with the Sidebar on the
+        locations pages. -Mike E. */
+        margin-right: 36px;
+        width: 200px;
+        height: 500px;
+        background: linear-gradient(#ffffff, #f7c58b);
+        border: 2px solid #b0b0b0;
+    }
+ 
+    #emailForm {
+        float: none;
+    }
+    
+    #contact_map {
+        width: 200px;
+        height: 200px;
+        border: 0px;
+        /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+        -webkit-border-radius: 0%; 
+
+        /* Firefox 1-3.6 */
+        -moz-border-radius: 0%; 
+
+        border-radius: 0%;
+    }
+    
+    #map_canvas {
+        width: 200px;
+        height: 200px;
+        //background-color: #CCC;
+        //-webkit-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+        //-moz-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+        //box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+    }
+    
+    #logo {
+        width: 200px;
+        float: left;
+    }
+}
 // End Slick Nav
 #nav nav{
     float: right;
@@ -410,7 +455,7 @@ body {
 }
 
 #socialMediaIcons {
-    width: 350px;
+    //width: 350px;
     padding: 30px;
     display: block;
     float: right;

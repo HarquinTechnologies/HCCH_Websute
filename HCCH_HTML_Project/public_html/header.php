@@ -62,7 +62,7 @@ and open the template in the editor.
                           <li><a href="about-our-purpose.php">Our Purpose</a></li>
                           <li><a href="about-our-history.php">Our History</a></li>                          
                           <li><a href="NOTICE-OF-PRIVACY-POLICY.pdf" target="_blank">Our Privacy Practices</a></li>
-                          <li><a href="about-our-purpose.php">Our Providers</a></li>
+                          <li><a href="about-our-providers.php">Our Providers</a></li>
                       </ul>
                   </li>
                   <li>
@@ -94,7 +94,7 @@ and open the template in the editor.
                     <ul>
                         <li><a href="about-our-purpose.php">Our Purpose</a></li>
                         <li><a href="about-our-history.php">Our History</a></li>   
-                        <li><a href="about-our-purpose.php">Our Providers</a></li>
+                        <li><a href="about-our-providers.php">Our Providers</a></li>
                     </ul>
                 </li>
                 <li>Services
