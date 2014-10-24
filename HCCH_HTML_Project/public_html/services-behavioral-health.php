@@ -54,9 +54,9 @@ and open the template in the editor.
                 </div>              
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
-                        <li><img src="images/photo_11.jpg" alt="Sidebar Photo 11"/></li>
-                        <li><img src="images/photo_9.jpg" alt="Sidebar Photo 9"/></li>
-                        <li><img src="images/photo_5.jpg" alt="Sidebar Photo 5"/></li>
+                        <li><img src="images/behavioral-1.jpg" alt="Behavioral 1"/></li>
+                        <li><img src="images/behavioral-3.jpg" alt="Behavioral 3"/></li>
+                        <li><img src="images/behavioral-2.jpg" alt="Behavioral 2"/></li>
                     </ul>
                 </div>
             </div>

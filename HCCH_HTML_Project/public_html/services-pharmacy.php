@@ -38,9 +38,9 @@ and open the template in the editor.
                 </div>              
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
-                        <li><img src="images/photo_11.jpg" alt="Sidebar Photo 11"/></li>
-                        <li><img src="images/photo_9.jpg" alt="Sidebar Photo 9"/></li>
-                        <li><img src="images/photo_5.jpg" alt="Sidebar Photo 5"/></li>
+                        <li><img src="images/pharmacy-3.jpg" alt="Pharmacy 3"/></li>
+                        <li><img src="images/pharmacy-2.jpg" alt="Pharmacy 2"/></li>
+                        <li><img src="images/pharmacy-1.jpg" alt="Pharmacy 1"/></li>
                     </ul>
                 </div>
             </div>
