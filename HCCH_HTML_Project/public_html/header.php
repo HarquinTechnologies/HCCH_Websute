@@ -25,6 +25,10 @@ and open the template in the editor.
               
                  
         <!-- Style Sheets -->
+        
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/style.css">     
         <link rel="stylesheet" href="css/slicknav.css">  
