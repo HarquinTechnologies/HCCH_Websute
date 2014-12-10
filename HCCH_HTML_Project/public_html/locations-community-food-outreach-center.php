@@ -62,9 +62,9 @@ and open the template in the editor.
                 </div>
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
-                        <li><img src="images/sidebar-3.jpg" alt="Sidebar Photo 3"/></li>
-                        <li><img src="images/sidebar-9.jpg" alt="Sidebar Photo 9"/></li>
-                        <li><img src="images/sidebar-8.jpg" alt="Sidebar Photo 8"/></li>
+                        <li><img src="images/outreach-3.jpg" alt="Outreach Photo 3"/></li>
+                        <li><img src="images/outreach-1.jpg" alt="Outreach Photo 1"/></li>
+                        <li><img src="images/outreach-2.jpg" alt="Outreach Photo 2"/></li>
                     </ul>
                 </div>
             </div>

@@ -103,9 +103,9 @@ and open the template in the editor.
                   </div>              
                   <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                       <ul id="sidebar">
-                          <li><img src="images/photo_11.jpg" alt="" height="150" width="150"/></li>
-                          <li><img src="images/photo_9.jpg" alt="" height="150" width="150"/></li>
-                          <li><img src="images/photo_5.jpg" alt="" height="150" width="150"/></li>
+                        <li><img src="images/faq-1.jpg" alt="FAQ Photo 1"/></li>
+                        <li><img src="images/faq-2.jpg" alt="FAQ Photo 2"/></li>
+                        <li><img src="images/faq-3.jpg" alt="FAQ Photo 3"/></li>
                       </ul>
                   </div>
               </div>
