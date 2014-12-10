@@ -12,7 +12,7 @@
                     <!-- Asked to be removed by Katie. 10/03/2014- Quintin E.
                     <p><a href="about-our-purpose.php">Our Management</a></p> -->
                     <p><a href="NOTICE-OF-PRIVACY-POLICY.pdf" target="_blank">Our Privacy Practices</a></p>
-                    <p><a href="about-our-purpose.php">Our Providers</a></p>
+                    <p><a href="about-our-providers.php">Our Providers</a></p>
                     <a href="contact-us.php"><span class="mainMenuOption">Contact Us</span></a>
                 </div>
                 <div class="footerLinkColumn col-xs-4">
@@ -40,7 +40,7 @@
             <div class="container">
                 <div class="row">
                     <a href="index.php"><img id="bottomLogo" src="images/logo.png"  alt="Bottom Logo"></a>
-                    <img id="socialMediaIcons" src="images/icons_sprit.png"  alt="Social Media Icons">
+                    <a href="https://www.facebook.com/orangeblossomfamilyhealth"><img id="socialMediaIcons" src="images/icon-facebook.png"  alt="Social Media Icons"></a>
                 </div>
             </div>  
         </footer>

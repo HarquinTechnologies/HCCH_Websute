@@ -25,6 +25,10 @@ and open the template in the editor.
               
                  
         <!-- Style Sheets -->
+        
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/style.css">     
         <link rel="stylesheet" href="css/slicknav.css">  
@@ -62,7 +66,7 @@ and open the template in the editor.
                           <li><a href="about-our-purpose.php">Our Purpose</a></li>
                           <li><a href="about-our-history.php">Our History</a></li>                          
                           <li><a href="NOTICE-OF-PRIVACY-POLICY.pdf" target="_blank">Our Privacy Practices</a></li>
-                          <li><a href="about-our-purpose.php">Our Providers</a></li>
+                          <li><a href="about-our-providers.php">Our Providers</a></li>
                       </ul>
                   </li>
                   <li>
@@ -94,7 +98,7 @@ and open the template in the editor.
                     <ul>
                         <li><a href="about-our-purpose.php">Our Purpose</a></li>
                         <li><a href="about-our-history.php">Our History</a></li>   
-                        <li><a href="about-our-purpose.php">Our Providers</a></li>
+                        <li><a href="about-our-providers.php">Our Providers</a></li>
                     </ul>
                 </li>
                 <li>Services
