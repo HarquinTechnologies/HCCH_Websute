@@ -48,7 +48,7 @@ and open the template in the editor.
                     <div id="map_canvas"></div>
                 </div>                
                 <div class="infoBarColumn col-md-4">
-                    <h1 id="NavigatorHeader">Community Hope Center </h1>
+                    <h1 id="NavigatorHeader">Orange Blossom Family Health at Community Hope Center </h1>
                     <h2>Find Us</h2>
                     <p>2198 Four Winds Blvd.</p>
                     <p>Kissimmee, FL 34746 </p>

@@ -16,37 +16,17 @@ and open the template in the editor.
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
                     <h2 id="NavigatorHeader">Our History</h2>          
-                    <p>Our health centers are governed by a non-profit organization 
-                        called <a href="http://www.hcch.org" style="text-decoration: underline;">Health Care Center for the Homeless</a>(HCCH), which 
-                        was founded in 1993. After operating out of several different 
-                        buildings for years, HCCH opened our first official location 
-                        on Orange Blossom Trail in 2006. 
+                    <p>Orange Blossom Family Health first opened its doors in 2006 as a caring service of <a href="http://www.hcch.org" style="text-decoration: underline;">Health Care Center for the Homeless</a>
+                        
                     </p>
                     <br/>
-                    <p>With our new health center officially opened, we were able to 
-                        double our capacity and 	expand our services to even 
-                        more patients. Our multi-disciplinary approach merges 
-                        outreach with integrated systems of primary medical care, 
-                        oral health services, behavioral health and substance abuse 
-                        counseling and case management. In 2007 we received funding 
-                        to increase our medical capacity and to start our mobile 
-                        health services program.  
+                    <p>Our multi-disciplinary approach merges outreach with integrated systems of primary medical care, oral health services, behavioral health and substance abuse counseling and case management.  
                     </p>
                     <br/>
-                    <p>The year 2013 brought our first satellite site at the Community 
-                        Food and Outreach Center located on Michigan St. We also 
-                        received funding late in the year to open up two new satellite 
-                        sites in 2014. Our Osceola County location began seeing patients 
-                        in March of 2014 and our Sanford at Harvest Time International 
-                        began seeing patients in July of 2014. 
+                    <p>The year 2013 brought our first satellite site at the Community Food and Outreach Center located on Michigan St. We also received funding late in the year to open up two new satellite sites in 2014. Our Osceola County location at Community Hope Center began seeing patients in March of 2014 and our Sanford location at Harvest Time International began seeing patients in July of 2014. 
                     </p>
                     <br/>
-                    <p>Each of our sites offer primary medical services in an atmosphere
-                        of dignity and respect.  In addition to primary medical care, 
-                        programs available at our main location include oral health 
-                        services, behavioral health and substance abuse counseling, 
-                        vision services, an on-site pharmacy, a residential TB shelter, 
-                        mobile health services, and street outreach - our HOPE Team. 
+                    <p>Each of our sites offers access to primary medical services in an atmosphere of dignity and respect. In addition to primary medical care, programs available at our main location include oral health services, behavioral health and substance abuse counseling, vision services, an on-site pharmacy, a residential TB shelter, mobile health services, and street outreach - our HOPE Team. 
                     </p>
                     <br/>
                 </div>              

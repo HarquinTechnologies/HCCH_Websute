@@ -12,25 +12,10 @@ and open the template in the editor.
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
                     <h2 id="NavigatorHeader">Pharmacy</h2>          
-                    <p>Orange Blossom Family Health operates an on-site pharmacy 
-                        in our health center. Our pharmacy serves our patients 
-                        seen by a provider within the Health Center and provides 
-                        low cost medications in a convenient setting. We do ask 
-                        for low co-pays for the prescription medications provided 
-                        through our pharmacy, but we do not allow this to become 
-                        a barrier to service. While many retail pharmacies offer 
-                        low co-pays for medications, the Health Center recognizes 
-                        many of our patients lack the regular transportation that 
-                        would make travelling elsewhere a cost effective choice.  
+                    <p>Orange Blossom Family Health operates an on-site pharmacy in our main health center on Orange Blossom Trail. Our pharmacy serves our patients seen by a provider within any of our Health Centers and provides low cost medications in a convenient setting. 
                     </p>
                     <br/>
-                    <p>We also maintain a Patient Assistance Program (PAP) which 
-                        helps our patients who qualify obtain free medications 
-                        through the major pharmaceutical companies. Our PAP 
-                        coordinator currently works with over 2000 patients and 
-                        assists them in obtaining an initial three month supply 
-                        of their medications and helps to manage their refills 
-                        as needed. 
+                    <p>We also maintain a Patient Assistance Program (PAP) which helps our patients who qualify obtain free medications through the major pharmaceutical companies.  
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Pharmacy Services Provided at the Following Locations:</h2>

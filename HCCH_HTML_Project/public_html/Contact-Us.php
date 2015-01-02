@@ -16,7 +16,7 @@ and open the template in the editor.
           function initialize() {
             var mapCanvas = document.getElementById('contact_map');
             var mapOptions = {
-              center: new google.maps.LatLng(28.309762, -81.465912),
+              center: new google.maps.LatLng(28.545560, -81.397870),
               zoom: 16,
               mapTypeId: google.maps.MapTypeId.ROADMAP
             };
@@ -24,7 +24,7 @@ and open the template in the editor.
             
             // Creating a marker and positioning it on the map    
             var marker = new google.maps.Marker({    
-              position: new google.maps.LatLng(28.309762, -81.465912),    
+              position: new google.maps.LatLng(28.545560, -81.397870),    
               map: map    
             });  
           }
@@ -45,8 +45,8 @@ and open the template in the editor.
                     <div class='bottomOfContact'>
                         <span class='contactUsHeader'>Address</span>
                         <p>
-                            2198 Four Winds Blvd. <br/>
-                            Kissimmee, FL 34747
+                            232 N. Orange Blossom Trail <br/>
+                            Orlando, FL 32805
                         </p>
                     </div>
                     <div class='bottomOfContact'>
@@ -58,7 +58,7 @@ and open the template in the editor.
                     <div class='bottomOfContact'>
                         <span class='contactUsHeader'>Telephone</span>
                         <p>
-                            (407)770-0430
+                            (407) 428-5751
                         </p>
                     </div>
                 </div>                

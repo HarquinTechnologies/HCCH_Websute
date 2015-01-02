@@ -12,30 +12,10 @@ and open the template in the editor.
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
                     <h2 id="NavigatorHeader">Vision</h2>          
-                    <p>While we provide glasses for the purpose of vision correction, 
-                        we also screen our patients for vision related issues that 
-                        may result from diabetes and other chronic illnesses.  
-                        Education is also provided on the importance of addressing 
-                        eye health issues.  
+                    <p>While we provide glasses for the purpose of vision correction, we also screen our patients for vision related issues that may result from diabetes and other chronic illnesses. Education is also provided on the importance of addressing eye health issues.  
                     </p>
                     <br/>
-                    <p>Some of the vision services available within our clinic 
-                        are through a partnership with Lions Club: Project Right 
-                        to Sight.  Orange Blossom Family Health patients are provided 
-                        with a free pair of recycled eyeglasses collected through 
-                        the District 35-0 Lions Club, who acquire used glasses, 
-                        classify them, and store them in their warehouse in Ocoee.  
-                        Once a patient is assessed for the particular strength they 
-                        need, the Lions Club provides the glasses.  
-                    </p>
-                    <br/>
-                    <p>If the Lions Club is unable to fulfill a specific prescription 
-                        needed, Optical Eyeland has generously been providing the 
-                        necessary eyeglasses at no charge.  Orange Blossom Family 
-                        Health provides them with recycled frames previously donated 
-                        and new standard lenses are manufactured specific to the 
-                        patient’s need.  All frames are fitted to the patient before 
-                        they are released to ensure the highest of standards. 
+                    <p>Some of the vision services available within our clinic are through a partnership with Lions Club or Optical Eyeland.  Patients are assessed and provided with lenses that fit their particular strength and prescription needed. All frames are fitted to the patient to ensure the highest of standards.  
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Vision Services Provided at the Following Locations:</h2>

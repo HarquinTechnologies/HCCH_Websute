@@ -49,7 +49,7 @@ and open the template in the editor.
                     <div id="map_canvas"></div>
                 </div>                
                 <div class="infoBarColumn col-md-4">
-                    <h1 id="NavigatorHeader">Harvest Time International</h1>
+                    <h1 id="NavigatorHeader">Orange Blossom Family Health at Harvest Time International</h1>
                     <h2>Find Us</h2>
                     <p>225 Kennel Rd.</p>
                     <p>Sanford, FL 32771</p>
@@ -67,8 +67,8 @@ and open the template in the editor.
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
                         <li><img src="images/harvest-1.jpg" alt="Harvest Photo 1"/></li>
-                        <li><img src="images/harvest-1.jpg" alt="Harvest Photo 2"/></li>
-                        <li><img src="images/harvest-1.jpg" alt="Harvest Photo 3"/></li>
+                        <li><img src="images/harvest-2.jpg" alt="Harvest Photo 2"/></li>
+                        <li><img src="images/harvest-3.jpg" alt="Harvest Photo 3"/></li>
                     </ul>
                 </div>
             </div>
