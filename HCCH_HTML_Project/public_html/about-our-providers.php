@@ -19,30 +19,70 @@ and open the template in the editor.
                     <br />
                       <h3 id="FAQHeader">Medical
                       </h3>
-                    <p>Francoeur Cadet, DO, MPH Chief Medical Officer Physician <br/>
-                            Jaime Torner, MD Physician <br/>
-                            Amrita Mukherjee, DOP Physician <br/>
-                            Chianta Lindsey, DNP, ARNP  Director of Clinical Operations Nurse Practitioner <br/>
-                            Teresa Hugill, ARNP Nurse Practitioner <br/>
-                            Pia Valvassori, PhD, ARNP Nurse Practitioner <br/> 
-                            Janina Hasbun, ARNP Nurse Practitioner
+                    <br/>
+                    <p><u>Francoeur Cadet, DO, MPH</u> <br/>
+                    <b>Chief Medical Officer</b> <br/>
+                    <i>Physician</i> <br/>
+                    <br/>
+                    <u>Chianta Lindsey, DNP, ARNP</u> <br/>
+                    <b>Director of Clinical Operations</b> <br/>
+                    <i>Nurse Practitioner</i> <br/>
+                    <br/>
+                    <u>Jaime Torner, MD</u> <br/>
+                    <i>Physician</i> <br/>
+                    <br/>
+                    <u>Amrita Mukherjee, DOP</u> <br />
+                    <i>Physician</i> <br/>
+                    <br/>                            
+                    <u>Teresa Hugill, ARNP</u> <br/>
+                    <i>Nurse Practitioner</i> <br/>
+                    <br/>
+                    <u>Pia Valvassori, PhD, ARNP</u> <br/>
+                    <i>Nurse Practitioner</i> <br/>
+                    <br/>
+                    <u>Janina Hasbun, ARNP</u> <br/>
+                    <i>Nurse Practitioner</i>
                       </p>    
+                      <br/>
+                      <br/>
                       <br/>
                       <h3 id="FAQHeader">Dental
                       </h3>
-                      <p>J. Michael Allen, DDS, MPH Chief Dental Officer Dentist <br/>
-                            Edwin Acosta, DDS Dentist <br/>
-                            Antony Lee, DMD Dentist <br/>
-                            Juan Pinzon, DDS Dentist <br/>
-                            Carlos Rivero, DMD Dentist
+                      <br/>
+                      <p><u>J. Michael Allen, DDS, MPH</u><br/>
+                      <b>Chief Dental Officer</b> <br/>
+                      <i>Dentist</i><br/>
+                      <br/>
+                      <u>Edwin Acosta, DDS</u><br/>
+                      <i>Dentist</i> <br/>
+                      <br/>
+                      <u>Antony Lee, DMD</u><br/>
+                      <i>Dentist</i> <br/>
+                      <br/>
+                      <u>Juan Pinzon, DDS</u><br/>
+                      <i>Dentist</i><br/>
+                      <br/>
+                      <u>Carlos Rivero, DMD</u><br/>
+                      <i>Dentist</i><br/>
                       </p>
+                      <br/>
+                      <br/>
                       <br/>
                       <h3 id="FAQHeader">Behavioral Health 
                       </h3>
-                      <p>Dewey Wooden, LMHC Director of Behavioral Health Licensed Mental Health Counselor <br/>
-                            Lillian Arbelo, LCSW Licensed Clinical Social Worker <br/>
-                            Arany Orellana, LCSW Licensed Clinical Social Worker <br/>
-                            Janet Hutchison, ARNP Psychiatric Nurse Practitioner
+                      <br/>
+                      <p><u>Dewey Wooden, LMHC</u><br/>
+                      <b>Director of Behavioral Health</b><br/>
+                      <i>Licensed Mental Health Counselor</i><br/>
+                      <br/>
+                      <u>Lillian Arbelo, LCSW</u><br/>
+                      <i>Licensed Clinical Social Worker</i><br/>
+                      <br/>
+                      <u>Arany Orellana, LCSW</u><br/>
+                      <i>Licensed Clinical Social Worker</i><br/>
+                      <br/>
+                      <u>Janet Hutchison, ARNP</u><br/>
+                      <i>Psychiatric Nurse Practitioner</i>
                       </p>
                       <br/>
                 </div>              
