@@ -36,9 +36,9 @@ and open the template in the editor.
                 <br/>
                 <br/>
                 <ul id="locationsLinks">
-                    <li><a href="locations-community-food-outreach-center.php">Community Food & Outreach Center</a></li>
-                    <li><a href="locations-community-hope-center.php">Community Hope Center</a></li>
-                    <li><a href="locations-harvest-time-international.php">Harvest Time International</a></li>
+                    <li><a href="locations-community-food-outreach-center.php">Michigan Street</a></li>
+                    <li><a href="locations-community-hope-center.php">Kissimmee</a></li>
+                    <li><a href="locations-harvest-time-international.php">Sanford</a></li>
                     <li><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></li>
                 </ul>
                 </div>
