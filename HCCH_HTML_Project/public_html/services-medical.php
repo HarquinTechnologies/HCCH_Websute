@@ -53,9 +53,9 @@ and open the template in the editor.
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Medical Services Provided at the Following Locations:</h2>
-                    <p><a href="locations-community-food-outreach-center.php">Community Food & Outreach Center</a></p>
-                    <p><a href="locations-community-hope-center.php">Community Hope Center</a></p>
-                    <p><a href="locations-harvest-time-international.php">Harvest Time International</a></p>
+                    <p><a href="locations-community-food-outreach-center.php">Michigan Street</a></p>
+                    <p><a href="locations-community-hope-center.php">Kissimmee</a></p>
+                    <p><a href="locations-harvest-time-international.php">Sanford</a></p>
                     <p><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></p>
                 </div>              
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
