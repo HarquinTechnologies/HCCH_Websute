@@ -77,6 +77,7 @@ and open the template in the editor.
                           <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
                           <li><a href="services-vision.php">Vision</a></li>
                           <li><a href="services-pharmacy.php">Pharmacy</a></li>
+                          <li><a href="services-patient-portal.php">Patient Portal</a></li>
                       </ul>
                   </li>
                   <li>
@@ -108,6 +109,7 @@ and open the template in the editor.
                         <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
                         <li><a href="services-vision.php">Vision</a></li>
                         <li><a href="services-pharmacy.php">Pharmacy</a></li>
+                        <li><a href="services-patient-portal.php">Patient Portal</a></li>
                     </ul>
                 </li>
                 <li>Locations

@@ -22,6 +22,7 @@
                     <p><a href="services-behavioral-health.php">Behavioral Health</a></p>
                     <!-- Asked to be removed by Katie. 10/03/2014 -Mike E.
                     <p><a href="services-mobile-health.html">Mobile Health</a></p>-->
+                    <p><a href="services-patient-portal.php">Patient Portal</a></p>
                     <p><a href="services-vision.php">Vision</a></p>
                     <p><a href="services-pharmacy.php">Pharmacy</a></p>                               
                 </div>
