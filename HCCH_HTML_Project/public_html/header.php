@@ -47,7 +47,8 @@ and open the template in the editor.
         
         
     </head>
-    <body>        
+    <body>  
+
         <div class="container">
             <a href="index.php"><img id="logo" src="images/logo.png" alt="logo"></a>
             <ul id="homeDonateMenu">
