@@ -49,7 +49,7 @@ and open the template in the editor.
                     <div id="map_canvas"></div>
                 </div>                
                 <div class="infoBarColumn col-md-4">
-                    <h1 id="NavigatorHeader">Harvest Time International</h1>
+                    <h1 id="NavigatorHeader">Orange Blossom Family Health at Harvest Time International</h1>
                     <h2>Find Us</h2>
                     <p>225 Kennel Rd.</p>
                     <p>Sanford, FL 32771</p>

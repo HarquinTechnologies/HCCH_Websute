@@ -54,7 +54,7 @@ and open the template in the editor.
                 <li><a href="index.php">Home</a></li>             
                 <br/>
                 <li><a href="http://www.hcch.org/">Interested in our Services for the homeless?</li>                
-                <li>Click here for our organization's page.</a></li>
+                <li>Click here for more information.</a></li>
             </ul>
         </div>
         <div class="container">
@@ -72,20 +72,20 @@ and open the template in the editor.
                   <li>
                       <a href="services-behavioral-health.php">Services</a>
                       <ul class="subMenu">
-                          <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
                           <li><a href="services-medical.php">Medical</a></li>
-                          <li><a href="services-dental.php">Dental</a></li>
-                          <li><a href="services-vision.php">Vision</a></li>
-                          <li><a href="services-pharmacy.php">Pharmacy</a></li>
+                            <li><a href="services-dental.php">Dental</a></li>
+                            <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
+                            <li><a href="services-vision.php">Vision</a></li>
+                            <li><a href="services-pharmacy.php">Pharmacy</a></li>
                       </ul>
                   </li>
                   <li>
                       <a href="locations-orange-blossom-trail.php">Locations</a>
                       <ul class="subMenu">
                           <li><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></li>
-                          <li><a href="locations-community-food-outreach-center.php">Outreach Center</a></li>
-                          <li><a href="locations-community-hope-center.php">Hope Center</a></li>
-                          <li><a href="locations-harvest-time-international.php">Harvest Time</a></li>
+                          <li><a href="locations-community-food-outreach-center.php">Michigan Street</a></li>
+                          <li><a href="locations-community-hope-center.php">Kissimmee</a></li>
+                          <li><a href="locations-harvest-time-international.php">Sanford</a></li>
                       </ul>
                   </li>
                   <li><a href="faq.php">FAQ</a></li>
@@ -102,10 +102,10 @@ and open the template in the editor.
                     </ul>
                 </li>
                 <li>Services
-                    <ul>
-                        <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
+                    <ul>                        
                         <li><a href="services-medical.php">Medical</a></li>
                         <li><a href="services-dental.php">Dental</a></li>
+                        <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
                         <li><a href="services-vision.php">Vision</a></li>
                         <li><a href="services-pharmacy.php">Pharmacy</a></li>
                     </ul>
@@ -113,9 +113,9 @@ and open the template in the editor.
                 <li>Locations
                     <ul>
                         <li><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></li>
-                        <li><a href="locations-community-food-outreach-center.php">Outreach Center</a></li>
-                        <li><a href="locations-community-hope-center.php">Hope Center</a></li>
-                        <li><a href="locations-harvest-time-international.php">Harvest Time</a></li>
+                          <li><a href="locations-community-food-outreach-center.php">Michigan Street</a></li>
+                          <li><a href="locations-community-hope-center.php">Kissimmee</a></li>
+                          <li><a href="locations-harvest-time-international.php">Sanford</a></li>
                     </ul>
                 </li>
                 <li><a href="faq.php">FAQ</a></li>

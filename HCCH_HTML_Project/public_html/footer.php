@@ -27,9 +27,9 @@
                 </div>
                 <div class="footerLinkColumn  col-xs-4">
                     <a href="locations-community-food-outreach-center.php"><span class="mainMenuOption">Locations</span></a>
-                    <p><a href="locations-community-food-outreach-center.php">Community Food & Outreach Center</a></p>
-                    <p><a href="locations-community-hope-center.php">Community Hope Center</a></p>
-                    <p><a href="locations-harvest-time-international.php">Harvest Time International</a></p>
+                    <p><a href="locations-community-food-outreach-center.php">Michigan Street</a></p>
+                    <p><a href="locations-community-hope-center.php">Kissimmee</a></p>
+                    <p><a href="locations-harvest-time-international.php">Sanford</a></p>
                     <p><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></p>
                     <!-- Asked to be removed by Katie. 10/03/2014 -Mike E.
                     <p><a href="locations-samaritan-resource-center.html">Samaritan Resource Center</a></p>-->
