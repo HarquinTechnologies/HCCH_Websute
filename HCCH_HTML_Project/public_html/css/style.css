@@ -205,6 +205,8 @@ and open the template in the editor.
     color: white;
     text-decoration: none;
     margin: 0 auto;
+    display: inline-block;
+    width: 100%;
 }
 
 #emailForm {
@@ -454,7 +456,7 @@ body {
     float:right;
 }
 
-#socialMediaIcons {
+.socialMediaIcons {
     //width: 350px;
     padding: 30px;
     display: block;

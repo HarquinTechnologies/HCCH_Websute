@@ -8,10 +8,20 @@ and open the template in the editor.
 <!------------------------------------------------------------------------------
                                Start Content
 ------------------------------------------------------------------------------->
-        <div class="container">
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-59830876-1', 'auto');
+            ga('send', 'pageview');
+       </script>
+                               <div class="container">
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
                     <h2 id="NavigatorHeader">Pharmacy</h2>          
+<<<<<<< HEAD
                     <p>Orange Blossom Family Health operates an on-site pharmacy
                         in our main health center on Orange Blossom Trail. <i>Our 
                         pharmacy serves our patients seen by a provider within 
@@ -22,6 +32,12 @@ and open the template in the editor.
                     <p>We also maintain a Patient Assistance Program (PAP) which 
                         helps our patients who qualify obtain free medications 
                         through the major pharmaceutical companies.  
+=======
+                    <p>Orange Blossom Family Health operates an on-site pharmacy in our main health center on Orange Blossom Trail. Our pharmacy serves our patients seen by a provider within any of our Health Centers and provides low cost medications in a convenient setting. 
+                    </p>
+                    <br/>
+                    <p>We also maintain a Patient Assistance Program (PAP) which helps our patients who qualify obtain free medications through the major pharmaceutical companies.  
+>>>>>>> a3c4dad83766e74dc06840a46ffb0d5ca04472e9
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Pharmacy Services Provided at the Following Locations:</h2>

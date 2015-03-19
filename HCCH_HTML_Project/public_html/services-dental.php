@@ -8,7 +8,16 @@ and open the template in the editor.
 <!------------------------------------------------------------------------------
                                Start Content
 ------------------------------------------------------------------------------->
-        <div class="container">
+       <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-59830876-1', 'auto');
+            ga('send', 'pageview');
+       </script>
+                               <div class="container">
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
                     <h2 id="NavigatorHeader">Dental</h2>          
@@ -20,6 +29,7 @@ and open the template in the editor.
                         nutritional health as well. 
                     </p>
                     <br/>
+<<<<<<< HEAD
                     <p>Oral health services are provided by a team of dentists,
                         hygienists, dental assistants, and students. Emergency
                         dental care, oral screenings, cleaning services, 
@@ -28,6 +38,9 @@ and open the template in the editor.
                         partial dentures. Orange Blossom Family Health has an 
                         established pediatric dental program that benefits both 
                         children and their families by providing oral health education.
+=======
+                    <p>Oral health services are provided by a team of dentists, hygienists, dental assistants, and students. Emergency dental care, oral screenings, cleaning services, restoration work, and referrals for surgery are some of the services provided, as well as low cost full or partial dentures. Orange Blossom Family Health has an established pediatric dental program that benefits both children and their families by providing oral health education. 
+>>>>>>> a3c4dad83766e74dc06840a46ffb0d5ca04472e9
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Dental Services Provided at the Following Locations:</h2>

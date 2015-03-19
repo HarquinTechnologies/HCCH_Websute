@@ -12,7 +12,16 @@ and open the template in the editor.
 <!------------------------------------------------------------------------------
                               Import Map Script
 ------------------------------------------------------------------------------->
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
+      <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-59830876-1', 'auto');
+            ga('send', 'pageview');
+       </script>
+                              <script src="https://maps.googleapis.com/maps/api/js"></script>
 <!------------------------------------------------------------------------------
                               Generate Map
 ------------------------------------------------------------------------------->
@@ -67,8 +76,8 @@ and open the template in the editor.
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
                         <li><img src="images/harvest-1.jpg" alt="Harvest Photo 1"/></li>
-                        <li><img src="images/harvest-1.jpg" alt="Harvest Photo 2"/></li>
-                        <li><img src="images/harvest-1.jpg" alt="Harvest Photo 3"/></li>
+                        <li><img src="images/harvest-2.jpg" alt="Harvest Photo 2"/></li>
+                        <li><img src="images/harvest-3.jpg" alt="Harvest Photo 3"/></li>
                     </ul>
                 </div>
             </div>

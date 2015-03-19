@@ -10,7 +10,16 @@ and open the template in the editor.
 <!------------------------------------------------------------------------------
                                Start Content
 ------------------------------------------------------------------------------->       
-        <div class="container">
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-59830876-1', 'auto');
+            ga('send', 'pageview');
+       </script>
+                               <div class="container">
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
                     <h2 id="NavigatorHeader">Behavioral Health</h2>          
@@ -48,8 +57,8 @@ and open the template in the editor.
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Behavioral Health Services Provided at the Following Locations:</h2>
-                    <p><a href="locations-community-food-outreach-center.php">Community Food & Outreach Center</a></p>
-                    <p><a href="locations-community-hope-center.php">Community Hope Center</a></p>
+                    <p><a href="locations-community-food-outreach-center.php">Michigan Street</a></p>
+                    <p><a href="locations-community-hope-center.php">Kissimmee</a></p>
                     <p><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></p>
                 </div>              
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">

@@ -5,6 +5,15 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
     <?php include ('header.php'); ?> 
+       <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-59830876-1', 'auto');
+            ga('send', 'pageview');
+       </script>
 <!------------------------------------------------------------------------------
                                Start Content
 ------------------------------------------------------------------------------->
@@ -40,8 +49,12 @@ and open the template in the editor.
                         Department.
                     </p>
                     <br/>
+<<<<<<< HEAD
                     <p>We also offer a confidential rapid HIV testing program that 
                         is open to anyone from anywhere. There are no geographic 
+=======
+                    <p>We also offer a confidential rapid HIV testing program that is open to anyone from anywhere. There are no geographic 
+>>>>>>> a3c4dad83766e74dc06840a46ffb0d5ca04472e9
                         or financial requirements to receive this test. We use 
                         an antibody test administered by finger stick and the test 
                         takes approximately 20 minutes to obtain a reactive or 
@@ -54,9 +67,9 @@ and open the template in the editor.
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Medical Services Provided at the Following Locations:</h2>
-                    <p><a href="locations-community-food-outreach-center.php">Community Food & Outreach Center</a></p>
-                    <p><a href="locations-community-hope-center.php">Community Hope Center</a></p>
-                    <p><a href="locations-harvest-time-international.php">Harvest Time International</a></p>
+                    <p><a href="locations-community-food-outreach-center.php">Michigan Street</a></p>
+                    <p><a href="locations-community-hope-center.php">Kissimmee</a></p>
+                    <p><a href="locations-harvest-time-international.php">Sanford</a></p>
                     <p><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></p>
                 </div>              
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
