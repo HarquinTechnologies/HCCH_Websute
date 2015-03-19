@@ -49,12 +49,8 @@ and open the template in the editor.
                         Department.
                     </p>
                     <br/>
-<<<<<<< HEAD
                     <p>We also offer a confidential rapid HIV testing program that 
                         is open to anyone from anywhere. There are no geographic 
-=======
-                    <p>We also offer a confidential rapid HIV testing program that is open to anyone from anywhere. There are no geographic 
->>>>>>> a3c4dad83766e74dc06840a46ffb0d5ca04472e9
                         or financial requirements to receive this test. We use 
                         an antibody test administered by finger stick and the test 
                         takes approximately 20 minutes to obtain a reactive or 

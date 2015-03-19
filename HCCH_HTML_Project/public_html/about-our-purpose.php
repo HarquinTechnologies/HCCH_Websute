@@ -20,7 +20,6 @@ and open the template in the editor.
                                <div class="container">
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
-<<<<<<< HEAD
                     <h2 id="NavigatorHeader">Our Purpose & Commitment</h2>                    
                     <p>Orange Blossom Family Health provides quality health care 
                         services to residents of Orange, Osceola, and Seminole 
@@ -39,16 +38,6 @@ and open the template in the editor.
                         area and offer an array of different and vital health 
                         services. Click on our locations tab to find an Orange 
                         Blossom Family Health near you and to get further information. 
-=======
-                    <h2 id="NavigatorHeader">Our Purpose & Commitment</h2>          
-                    <p>Orange Blossom Family Health provides quality health care services to residents of Orange, Osceola, and Seminole Counties in multiple locations throughout the Central Florida area. We accept patients who are uninsured or covered by Medicaid, Medicare, and some private insurances.
-                    </p>
-                    <br/>
-                    <p>We are committed to providing the highest quality of care to all community residents in an atmosphere of dignity and respect. We offer affordable patient centered services for all community members regardless of their financial status 
-                    </p>
-                    <br/>
-                    <p>Our health centers are located throughout the tri-county area and offer an array of different and vital health services. Click on our locations tab to find an Orange Blossom Family Health near you and to get further information. 
->>>>>>> a3c4dad83766e74dc06840a46ffb0d5ca04472e9
                     </p>
                     <br/>
                 </div>              

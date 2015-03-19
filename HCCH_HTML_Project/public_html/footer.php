@@ -30,11 +30,7 @@
                     <a href="locations-community-food-outreach-center.php"><span class="mainMenuOption">Locations</span></a>
                     <p><a href="locations-community-food-outreach-center.php">Michigan Street</a></p>
                     <p><a href="locations-community-hope-center.php">Kissimmee</a></p>
-<<<<<<< HEAD
                     <p><a href="locations-harvest-time-international.php">Sanford</a></p>
-=======
-                    <p><a href="locations-harvest-time-international.php"> Sanford</a></p>
->>>>>>> a3c4dad83766e74dc06840a46ffb0d5ca04472e9
                     <p><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></p>
                     <!-- Asked to be removed by Katie. 10/03/2014 -Mike E.
                     <p><a href="locations-samaritan-resource-center.html">Samaritan Resource Center</a></p>-->
@@ -47,6 +43,9 @@
                     <a href="index.php"><img id="bottomLogo" src="images/logo.png"  alt="Bottom Logo"></a>
                     <a href="https://www.facebook.com/orangeblossomfamilyhealth"><img class="socialMediaIcons" src="images/icon-facebook.png"  alt="Social Media Icons"></a>
                     <a href="http://www.hcch.org"><img class="socialMediaIcons" src="images/HCCH Logo.png"  alt="Social Media Icons"></a>
+                </div>
+                <div class="row">
+                        <img class="col-centered" src="images/allLogos.png" alt="FACHC Logo">
                 </div>
             </div>  
         </footer>

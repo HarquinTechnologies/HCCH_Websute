@@ -21,6 +21,12 @@ and open the template in the editor.
     margin: 10px 2px;
 }
 
+.col-centered {
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
 .contactUsHeader {
     color: #f26522;
     font-family: Adobe Calson Pro;
