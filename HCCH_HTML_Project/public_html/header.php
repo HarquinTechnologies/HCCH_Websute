@@ -50,12 +50,21 @@ and open the template in the editor.
     <body>  
 
         <div class="container">
-            <a href="index.php"><img id="logo" src="images/logo.png" alt="logo"></a>
-            <ul id="homeDonateMenu">
-                <li><a href="index.php">Home</a></li>             
-                <br/>
-                <li><a href="http://www.hcch.org/">Interested in our Services for the homeless?</li>                
-                <li>Click here for more information.</a></li>
+            <a href="http://test.harquintechnologies.com/index.php"><img id="logo" src="/images/logo.png" alt="logo"></a>
+			  <div class="col-md-5 col-xs-5" id="notice">
+				Sliding Fee Discounts Available
+			  <br/>
+			  <span id="noticeLine2">Please click here for details</span>
+			  <br/>
+			  <a href="http://test.harquintechnologies.com/SlidingFeeEnglish.pdf">English</a> <a href="http://test.harquintechnologies.com/SlidingFeeSpanish.pdf">Spanish</a>
+			  <br/>
+				No patient will be turned away due to an inability to pay.
+			  </div>    
+            <ul class="col-md-3 col-xs-3" id="homeDonateMenu">
+                <li><a href="http://test.harquintechnologies.com/index.php">Home</a></li>             
+                <br>
+                <li><a href="http://www.hcch.org/">Interested in our Services for the homeless?</a></li><a href="http://www.hcch.org/">                
+                </a><li><a href="http://www.hcch.org/">Click here for more information.</a></li>
             </ul>
         </div>
         <div class="container">
@@ -78,7 +87,6 @@ and open the template in the editor.
                           <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
                           <li><a href="services-vision.php">Vision</a></li>
                           <li><a href="services-pharmacy.php">Pharmacy</a></li>
-                          <li><a href="services-patient-portal.php">Patient Portal</a></li>
                       </ul>
                   </li>
                   <li>
@@ -110,7 +118,6 @@ and open the template in the editor.
                         <li><a href="services-behavioral-health.php">Behavioral Health</a></li>
                         <li><a href="services-vision.php">Vision</a></li>
                         <li><a href="services-pharmacy.php">Pharmacy</a></li>
-                        <li><a href="services-patient-portal.php">Patient Portal</a></li>
                     </ul>
                 </li>
                 <li>Locations

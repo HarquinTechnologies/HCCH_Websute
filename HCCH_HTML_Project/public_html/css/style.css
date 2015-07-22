@@ -21,12 +21,6 @@ and open the template in the editor.
     margin: 10px 2px;
 }
 
-.col-centered {
-    display: block;
-    float: none;
-    margin: 0 auto;
-}
-
 .contactUsHeader {
     color: #f26522;
     font-family: Adobe Calson Pro;
@@ -339,6 +333,23 @@ and open the template in the editor.
     box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
 }
 
+#notice {
+    float: left;
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+	text-align: center;	
+}
+#notice a {
+	text-decoration: underline;
+}
+#noticeLine2 {
+	font-size: 12px;
+}
 // Slick Nav
 body {
 	font-family:Helvetica, Arial, sans-serif;
