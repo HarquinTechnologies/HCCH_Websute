@@ -67,7 +67,8 @@ and open the template in the editor.
                     </div>
                     <div class='bottomOfContact'>
                         <span class='contactUsHeader'>Telephone</span>
-                        <p>(407) 428-5751
+                        <p>
+                            (407) 428-5751
                         </p>
                     </div>
                 </div>                

@@ -21,16 +21,10 @@ and open the template in the editor.
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
                     <h2 id="NavigatorHeader">Pharmacy</h2>          
-                    <p>Orange Blossom Family Health operates an on-site pharmacy
-                        in our main health center on Orange Blossom Trail. <i>Our 
-                        pharmacy serves our patients seen by a provider within 
-                        any of our Health Centers and provides low cost medications
-                        in a convenient setting.</i>  
+                    <p>Orange Blossom Family Health operates an on-site pharmacy in our main health center on Orange Blossom Trail. Our pharmacy serves our patients seen by a provider within any of our Health Centers and provides low cost medications in a convenient setting. 
                     </p>
                     <br/>
-                    <p>We also maintain a Patient Assistance Program (PAP) which 
-                        helps our patients who qualify obtain free medications 
-                        through the major pharmaceutical companies.  
+                    <p>We also maintain a Patient Assistance Program (PAP) which helps our patients who qualify obtain free medications through the major pharmaceutical companies.  
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Pharmacy Services Provided at the Following Locations:</h2>

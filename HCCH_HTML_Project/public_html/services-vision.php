@@ -21,17 +21,10 @@ and open the template in the editor.
             <div class="row">
                 <div class="mainTextColumn col-md-10" id="content">
                     <h2 id="NavigatorHeader">Vision</h2>          
-                    <p>While we provide glasses for the purpose of vision correction,
-                        we also screen our patients for vision related issues that 
-                        may result from diabetes and other chronic illnesses. Education
-                        is also provided on the importance of addressing eye health issues.
+                    <p>While we provide glasses for the purpose of vision correction, we also screen our patients for vision related issues that may result from diabetes and other chronic illnesses. Education is also provided on the importance of addressing eye health issues.  
                     </p>
                     <br/>
-                    <p>Some of the vision services available within our clinic are
-                        through a partnership with Lions Club or Optical Eyeland.  
-                        Patients are assessed and provided with lenses that fit their 
-                        particular strength and prescription needed. All frames are fitted
-                        to the patient to ensure the highest of standards. 
+                    <p>Some of the vision services available within our clinic are through a partnership with Lions Club or Optical Eyeland.  Patients are assessed and provided with lenses that fit their particular strength and prescription needed. All frames are fitted to the patient to ensure the highest of standards.  
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Vision Services Provided at the Following Locations:</h2>

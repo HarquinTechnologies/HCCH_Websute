@@ -29,14 +29,7 @@ and open the template in the editor.
                         nutritional health as well. 
                     </p>
                     <br/>
-                    <p>Oral health services are provided by a team of dentists,
-                        hygienists, dental assistants, and students. Emergency
-                        dental care, oral screenings, cleaning services, 
-                        restoration work, and referrals for surgery are some 
-                        of the services provided, as well as low cost full or 
-                        partial dentures. Orange Blossom Family Health has an 
-                        established pediatric dental program that benefits both 
-                        children and their families by providing oral health education.
+                    <p>Oral health services are provided by a team of dentists, hygienists, dental assistants, and students. Emergency dental care, oral screenings, cleaning services, restoration work, and referrals for surgery are some of the services provided, as well as low cost full or partial dentures. Orange Blossom Family Health has an established pediatric dental program that benefits both children and their families by providing oral health education. 
                     </p>
                     <br/>
                     <h2 id="NavigatorHeader">Dental Services Provided at the Following Locations:</h2>

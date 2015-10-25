@@ -50,6 +50,18 @@ and open the template in the editor.
                     <i>Nurse Practitioner</i> <br/>
                     <br/>
                     <u>Janina Hasbun, ARNP</u> <br/>
+                    <i>Nurse Practitioner</i> <br/>
+                    <br/>
+                    <u>Christy Gadson, ARNP</u> <br/>
+                    <i>Nurse Practitioner</i> <br/>
+                    <br/>
+                    <u>Marc-Garcia Pierre-Louis, ARNP</u> <br/>
+                    <i>Nurse Practitioner</i> <br/>
+                    <br/>
+                    <u>Suzy Boules, MD</u> <br/>
+                    <i>Physician</i> <br/>
+                    <br/>
+                    <u>Marcela Nates, ARNP</u> <br/>
                     <i>Nurse Practitioner</i>
                       </p>    
                       <br/>
@@ -58,9 +70,12 @@ and open the template in the editor.
                       <h3 id="FAQHeader">Dental
                       </h3>
                       <br/>
-                      <p><u>J. Michael Allen, DDS, MPH</u><br/>
+                      <p><u>Meghan Keskar, DMD, MPH</u><br/>
                       <b>Chief Dental Officer</b> <br/>
                       <i>Dentist</i><br/>
+                      <br/>
+                      <u>J. Michael Allen, DDS, MPH</u><br/>
+                      <i>Dentist</i> <br/>
                       <br/>
                       <u>Edwin Acosta, DDS</u><br/>
                       <i>Dentist</i> <br/>
@@ -88,6 +103,9 @@ and open the template in the editor.
                       <i>Licensed Clinical Social Worker</i><br/>
                       <br/>
                       <u>Arany Orellana, LCSW</u><br/>
+                      <i>Licensed Clinical Social Worker</i><br/>
+                      <br/>
+                      <u>Nyssa Olness, LCSW, CAP</u><br/>
                       <i>Licensed Clinical Social Worker</i><br/>
                       <br/>
                       <u>Janet Hutchison, ARNP</u><br/>
