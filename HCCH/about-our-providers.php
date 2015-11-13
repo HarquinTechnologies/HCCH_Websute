@@ -63,7 +63,11 @@ and open the template in the editor.
                     <br/>
                     <u>Marcela Nates, ARNP</u> <br/>
                     <i>Nurse Practitioner</i>
-                      </p>    
+					<br/>
+					<br/>
+                    <u>Jean-Baptiste Ceme, ARNP</u> <br/>
+                    <i>Nurse Practitioner</i>
+                    </p>    
                       <br/>
                       <br/>
                       <br/>
