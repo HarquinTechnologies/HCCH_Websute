@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head> 
+<!------------------------------------------------------------------------------
+                              Load jQuery Library
+------------------------------------------------------------------------------->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+<!------------------------------------------------------------------------------
+                              Start Header
+------------------------------------------------------------------------------->
+        <div id="header"></div>
+<!------------------------------------------------------------------------------
+                               Start Content
+------------------------------------------------------------------------------->
+        <div class="container">
+            <div class="row">
+                <div class="mainTextColumn col-md-10" id="content">
+                    <h2 id="NavigatorHeader">Pharmacy</h2>          
+                    <p>Orange Blossom Family Health operates an on-site pharmacy 
+                        in our health center. Our pharmacy serves our patients 
+                        seen by a provider within the Health Center and provides 
+                        low cost medications in a convenient setting. We do ask 
+                        for low co-pays for the prescription medications provided 
+                        through our pharmacy, but we do not allow this to become 
+                        a barrier to service. While many retail pharmacies offer 
+                        low co-pays for medications, the Health Center recognizes 
+                        many of our patients lack the regular transportation that 
+                        would make travelling elsewhere a cost effective choice.  
+                    </p>
+                    <br/>
+                    <p>We also maintain a Patient Assistance Program (PAP) which 
+                        helps our patients who qualify obtain free medications 
+                        through the major pharmaceutical companies. Our PAP 
+                        coordinator currently works with over 2000 patients and 
+                        assists them in obtaining an initial three month supply 
+                        of their medications and helps to manage their refills 
+                        as needed. 
+                    </p>
+                    <br/>
+                    <h2 id="NavigatorHeader">Pharmacy Services Provided at the Following Locations:</h2>
+                    <p><a href="locations-orange-blossom-trail.html">Orange Blossom Trail</a></p>
+                </div>              
+                <div class="sideBarColumn col-md-2">
+                    <ul id="sidebar">
+                        <li><img src="images/photo_11.jpg" alt="Sidebar Photo 11"/></li>
+                        <li><img src="images/photo_9.jpg" alt="Sidebar Photo 9"/></li>
+                        <li><img src="images/photo_5.jpg" alt="Sidebar Photo 5"/></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------
+                              Start Footer
+------------------------------------------------------------------------------->   
+        <div id="footer"></div>    
+<!------------------------------------------------------------------------------
+                              Load Header and Footer
+------------------------------------------------------------------------------->            
+        <script>
+            $("#header").load("header.html");            
+            $("#footer").load("footer.html");
+        </script>
+    </body>
+</html>

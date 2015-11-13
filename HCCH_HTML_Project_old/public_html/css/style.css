@@ -1,0 +1,505 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2014, 6:35:26 AM
+    Author     : Ashley_Quintin
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bottomOfContact {
+    float: left;
+    width: 30%;
+   // margin-top: 5px;
+    //margin-bottom: 10px;
+    margin: 10px 2px;
+}
+
+.contactUsHeader {
+    color: #f26522;
+    font-family: Adobe Calson Pro;
+    font-weight: bold;
+}
+
+.footerLinkColumn, a {
+    color: #5a5b5d;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.mainTextColumn {
+    padding-top: 50px;
+}
+
+.mapColumn{
+    padding-top: 50px;
+}
+
+.infoBarColumn {
+    margin-top: 50px;
+    /* TODO: Fix this! This is used to fix the spacing with the Sidebar on the
+    locations pages. -Mike E. */
+    margin-right: 36px;
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(#ffffff, #f7c58b);
+    border: 2px solid #b0b0b0;
+}
+
+
+
+.formTitle {
+    color: #f26522;
+    font-family: Futura BdCn BT;
+    font-variant:small-caps;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.formTitle span {
+  display: inline-block;
+  position: relative;  
+}
+.formTitle span:before,
+.formTitle span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #f26522;
+  border-top: 1px solid #f26522;
+  top: 50%;
+  width: 65px;
+}
+
+.formTitle span:before {
+  right: 100%;
+  margin-right: 5px;
+}
+.formTitle span:after {
+  left: 100%;
+  margin-left: 5px;
+}
+
+.mapColumn{
+    padding-top: 50px;
+}
+
+.mainContent {
+    clear: left;
+    float: left;
+    width: 620px;
+}
+
+.mainContent img {
+    width: 620px;
+}
+
+.mainMenuOption {
+    color: #f26522;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
+}
+
+.infoBarColumn {
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+}
+
+.footerLinkColumn, a {
+    color: #5a5b5d;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.mainMenuOption {
+    color: #f26522;
+    font-family: Adobe Calson Pro;
+    font-weight: lighter;
+}
+
+#aboutUsPageHeaders {
+    color: #f26522;
+}
+
+#bottomLogo {
+    clear: left;
+    width: 200px;
+    float: left;
+}
+
+#contact_map {
+    width: 350px;
+    height: 350px;
+    border: 5px solid;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 100%; 
+
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 100%; 
+    
+    border-radius: 100%;
+    border-color: #f26522;
+}
+
+#contactUsParagraph {
+    width: 65%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#content {
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#desktop-menu {
+    height: 30px;
+    clear: both;
+    font-family: Adobe Calson Pro;
+    font-size: large;
+    background: linear-gradient(#f7941e, #f26522);
+}
+
+#desktop-menu ul {
+    width: 100%;
+}
+
+#desktop-menu li {
+    list-style: none;
+    color: white;
+    width: 20%;
+    height: 30px;
+    padding: 5px 0px;
+    text-align: center;
+    float: left;
+}
+
+#desktop-menu li ul li {
+    width: 100%;
+}
+
+#desktop-menu li:last-child {
+    border-right: none;
+}
+
+#desktop-menu li:hover {
+    background: linear-gradient(#d97807, #ce4507);
+}
+
+#desktop-menu ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+}
+
+#emailForm {
+    margin-top: 50px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    float: right;
+    background: linear-gradient(#ffffff, #f7c58b);
+    border: 2px solid #b0b0b0;
+    margin-bottom: 50px;
+}
+
+#emailForm input {
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: #f7941e;
+    width: 380px;
+    height: 40px;
+    background-color: white;
+}
+
+#emailForm textarea {
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: #f7941e;
+    width: 380px;
+    height: 160px;
+}
+
+#emailForm input:last-child {
+    background-color: #f7941e;
+    width: 100px;
+    height: 28px;
+    font-size: medium;
+    line-height: 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    -webkit-box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.6);
+    box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.6);
+}
+#FAQHeader{
+    font-family: Adobe Calson Pro;
+    color: #f26522;
+}
+
+#footerBar {
+    background: linear-gradient(#f7941e, #f26522);
+}
+
+#footerBar li {
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    list-style: none;
+    font-family: Adobe Calson Pro;
+    font-size: large;
+    text-align: center;
+}
+
+#formTitle2 span:before,
+#formTitle2 span:after {
+    width: 105px;
+}
+
+#formTitle3 span:before,
+#formTitle3 span:after {
+    width: 118px;
+}
+
+#formTitle4 span:before,
+#formTitle4 span:after {
+    width: 130px;
+}
+
+#homeDonateMenu {
+    list-style: none;
+    float: right;
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: right;
+}
+
+#locationsLinks {
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: lighter;
+    font-size: 12px;
+    height: 21px;
+    display: table;
+    margin: 0 auto;
+}
+
+#locationsLinks li{
+    list-style: none;
+    float: left;
+    padding: 2px;
+    border-right: thin solid #5a5b5d;
+}
+
+#locationsLinks li:last-child {
+    border-right: none;
+}
+
+#locationsLinks li a {
+    text-decoration: none;
+}
+
+#logo {
+    width: 300px;
+    float: left;
+}
+
+#map_canvas {
+    width: 450px;
+    height: 400px;
+    background-color: #CCC;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+}
+
+#notice {
+    float: left;
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+	text-align: center;	
+}
+#notice a {
+	text-decoration: underline;
+}
+#noticeLine2 {
+	font-size: 12px;
+}
+// Slick Nav
+body {
+	font-family:Helvetica, Arial, sans-serif;
+	margin:0;
+	padding:0;
+	font-size:100%;
+}
+
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 40em) {
+    .js #desktop-menu {
+            display:none;
+    }
+
+    .js .slicknav_menu {
+            display:block;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    .infoBarColumn {
+        margin-top: 50px;
+        /* TODO: Fix this! This is used to fix the spacing with the Sidebar on the
+        locations pages. -Mike E. */
+        margin-right: 36px;
+        width: 200px;
+        height: 550px;
+        background: linear-gradient(#ffffff, #f7c58b);
+        border: 2px solid #b0b0b0;
+    }
+ 
+    #emailForm {
+        float: none;
+    }
+    
+    #contact_map {
+        width: 200px;
+        height: 200px;
+        border: 0px;
+        /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+        -webkit-border-radius: 0%; 
+
+        /* Firefox 1-3.6 */
+        -moz-border-radius: 0%; 
+
+        border-radius: 0%;
+    }
+    
+    #map_canvas {
+        width: 200px;
+        height: 200px;
+        //background-color: #CCC;
+        //-webkit-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+        //-moz-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+        //box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.6);
+    }
+    
+    #logo {
+        width: 200px;
+        float: left;
+    }
+}
+// End Slick Nav
+#nav nav{
+    float: right;
+    width: auto;
+}
+
+#nav ul{
+    margin:0;
+    list-style:none;
+    font-family: Adobe Calson Pro;
+}
+
+#nav ul li{
+    display:inline-block;
+    float:left;
+    margin:0;
+}
+
+#nav ul li {
+    color: white;
+    float: left;
+    font-size: large;
+    background: linear-gradient(#f7941e, #f26522);
+}
+
+#nav ul li.active, #nav ul li:hover{
+    color:#fff;
+    background: linear-gradient(#d97807, #ce4507);
+}
+
+#nav select {
+    display: none;
+    height: 28px;
+    line-height: 28px;
+    padding: 4px;
+    margin-top:22px;
+    float:left;
+    width: 100%;
+}
+
+#NavigatorHeader {
+    font-family: Futura BdCn BT;
+    font-variant:small-caps;
+    color: #f26522;
+}
+
+#sidebar {
+    padding-top: 50px;
+}
+
+#sidebar li{
+    list-style:none;
+    display:inline-block;
+    padding-bottom: 25px;
+    float:right;
+}
+
+.socialMediaIcons {
+    //width: 350px;
+    padding: 30px;
+    display: block;
+    float: right;
+}
+
+ul.dropdown li:hover > ul { 
+    visibility: visible; 
+}
+
+.subMenu {
+    visibility: hidden;
+    float: none;
+    background: linear-gradient(#f7941e, #f26522); 
+}
+
+.subMenu li {
+    height: 30px;
+    clear: both;
+    width: 100%;
+    float: none;
+    background: linear-gradient(#f7941e, #f26522);
+    position: relative;
+    z-index: 9999;
+}
+
+.subMenu li:hover {
+    background: linear-gradient(#d97807, #ce4507);
+}

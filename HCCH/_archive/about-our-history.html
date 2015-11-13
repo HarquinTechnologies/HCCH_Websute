@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head> 
+<!------------------------------------------------------------------------------
+                              Load jQuery Library
+------------------------------------------------------------------------------->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+<!------------------------------------------------------------------------------
+                              Start Header
+------------------------------------------------------------------------------->
+        <div id="header"></div>
+<!------------------------------------------------------------------------------
+                               Start Content
+------------------------------------------------------------------------------->
+        <div class="container">
+            <div class="row">
+                <div class="mainTextColumn col-md-10" id="content">
+                    <h2><span id="aboutUsPageHeaders">Our History</span></h2>          
+                    <p>Our health centers are governed by a non-profit organization 
+                        called <a href="http://www.hcch.org" style="text-decoration: underline;">Health Care Center for the Homeless</a>(HCCH), which 
+                        was founded in 1993. After operating out of several different 
+                        buildings for years, HCCH opened our first official location 
+                        on Orange Blossom Trail in 2006. 
+                    </p>
+                    <br/>
+                    <p>With our new health center officially opened, we were able to 
+                        double our capacity and 	expand our services to even 
+                        more patients. Our multi-disciplinary approach merges 
+                        outreach with integrated systems of primary medical care, 
+                        oral health services, behavioral health and substance abuse 
+                        counseling and case management. In 2007 we received funding 
+                        to increase our medical capacity and to start our mobile 
+                        health services program.  
+                    </p>
+                    <br/>
+                    <p>The year 2013 brought our first satellite site at the Community 
+                        Food and Outreach Center located on Michigan St. We also 
+                        received funding late in the year to open up two new satellite 
+                        sites in 2014. Our Osceola County location began seeing patients 
+                        in March of 2014 and our Sanford at Harvest Time International 
+                        began seeing patients in July of 2014. 
+                    </p>
+                    <br/>
+                    <p>Each of our sites offer primary medical services in an atmosphere
+                        of dignity and respect.  In addition to primary medical care, 
+                        programs available at our main location include oral health 
+                        services, behavioral health and substance abuse counseling, 
+                        vision services, an on-site pharmacy, a residential TB shelter, 
+                        mobile health services, and street outreach - our HOPE Team. 
+                    </p>
+                    <br/>
+                </div>              
+                <div class="sideBarColumn col-md-2">
+                    <ul id="sidebar">
+                        <li><img src="images/photo_11.jpg" alt="" height="150" width="150"/></li>
+                        <li><img src="images/photo_9.jpg" alt="" height="150" width="150"/></li>
+                        <li><img src="images/photo_5.jpg" alt="" height="150" width="150"/></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------
+                              Start Footer
+------------------------------------------------------------------------------->   
+        <div id="footer"></div>    
+<!------------------------------------------------------------------------------
+                              Load Header and Footer
+------------------------------------------------------------------------------->            
+        <script>
+            $("#header").load("header.html");            
+            $("#footer").load("footer.html");
+        </script>
+    </body>
+</html>
