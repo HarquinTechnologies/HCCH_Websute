@@ -61,10 +61,6 @@ and open the template in the editor.
                     <u>Suzy Boules, MD</u> <br/>
                     <i>Physician</i> <br/>
                     <br/>
-                    <u>Marcela Nates, ARNP</u> <br/>
-                    <i>Nurse Practitioner</i>
-					<br/>
-					<br/>
                     <u>Jean-Baptiste Ceme, ARNP</u> <br/>
                     <i>Nurse Practitioner</i>
                     </p>    
@@ -82,9 +78,6 @@ and open the template in the editor.
                       <i>Dentist</i> <br/>
                       <br/>
                       <u>Edwin Acosta, DDS</u><br/>
-                      <i>Dentist</i> <br/>
-                      <br/>
-                      <u>Antony Lee, DMD</u><br/>
                       <i>Dentist</i> <br/>
                       <br/>
                       <u>Juan Pinzon, DDS</u><br/>
