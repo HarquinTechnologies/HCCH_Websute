@@ -97,6 +97,7 @@ and open the template in the editor.
                           <li><a href="locations-community-food-outreach-center.php">Michigan Street</a></li>
                           <li><a href="locations-community-hope-center.php"> Kissimmee</a></li>
                           <li><a href="locations-harvest-time-international.php"> Sanford</a></li>
+                          <li><a href="locations-west.php"> West</a></li>
                       </ul>
                   </li>
                   <li><a href="faq.php">FAQ</a></li>
@@ -128,6 +129,7 @@ and open the template in the editor.
                         <li><a href="locations-community-food-outreach-center.php">Michigan Street</a></li>
                         <li><a href="locations-community-hope-center.php"> Kissimmee</a></li>
                         <li><a href="locations-harvest-time-international.php"> Sanford</a></li>
+                        <li><a href="locations-west.php"> West</a></li>
                     </ul>
                 </li>
                 <li><a href="faq.php">FAQ</a></li>

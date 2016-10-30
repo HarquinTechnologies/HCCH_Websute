@@ -32,6 +32,7 @@
                     <p><a href="locations-community-hope-center.php">Kissimmee</a></p>
                     <p><a href="locations-harvest-time-international.php">Sanford</a></p>
                     <p><a href="locations-orange-blossom-trail.php">Orange Blossom Trail</a></p>
+                    <li><a href="locations-west.php"> West</a></li>
                     <!-- Asked to be removed by Katie. 10/03/2014 -Mike E.
                     <p><a href="locations-samaritan-resource-center.html">Samaritan Resource Center</a></p>-->
                     <p><a href="faq.php">FAQ</a></p>

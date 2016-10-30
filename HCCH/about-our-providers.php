@@ -23,9 +23,9 @@ and open the template in the editor.
 ------------------------------------------------------------------------------->
         <div class="container">
             <div class="row">
-                <div class="mainTextColumn col-md-10" id="content">
-                    <h2 id="NavigatorHeader">Our Providers</h2>         
-                    <br />
+                <div class="col-md-10">
+                 <h2 id="NavigatorHeader" style="text-align: center; padding-top: 20px; font-size: x-large;">Our Providers</h2>   
+                <div class="mainTextColumn col-md-4 our-providers-main-text" style="padding-top: 20px;">      
                       <h3 id="FAQHeader">Medical
                       </h3>
                     <br/>
@@ -61,12 +61,14 @@ and open the template in the editor.
                     <u>Suzy Boules, MD</u> <br/>
                     <i>Physician</i> <br/>
                     <br/>
-                    <u>Jean-Baptiste Ceme, ARNP</u> <br/>
+                    <u>Marcela Nates, ARNP</u> <br/>
                     <i>Nurse Practitioner</i>
-                    </p>    
+                      </p>    
                       <br/>
                       <br/>
                       <br/>
+                </div>
+                <div class="mainTextColumn col-md-4 our-providers-main-text" style="padding-top: 20px;">
                       <h3 id="FAQHeader">Dental
                       </h3>
                       <br/>
@@ -80,6 +82,9 @@ and open the template in the editor.
                       <u>Edwin Acosta, DDS</u><br/>
                       <i>Dentist</i> <br/>
                       <br/>
+                      <u>Antony Lee, DMD</u><br/>
+                      <i>Dentist</i> <br/>
+                      <br/>
                       <u>Juan Pinzon, DDS</u><br/>
                       <i>Dentist</i><br/>
                       <br/>
@@ -89,6 +94,8 @@ and open the template in the editor.
                       <br/>
                       <br/>
                       <br/>
+                </div>
+                <div class="mainTextColumn col-md-4 our-providers-main-text" style="padding-top: 20px;">
                       <h3 id="FAQHeader">Behavioral Health 
                       </h3>
                       <br/>
@@ -109,7 +116,8 @@ and open the template in the editor.
                       <i>Psychiatric Nurse Practitioner</i>
                       </p>
                       <br/>
-                </div>              
+                </div>
+                </div>
                 <div class="sideBarColumn col-md-2 hidden-sm hidden-xs">
                     <ul id="sidebar">
                         <li><img src="images/providers-1.jpg" alt="Providers Photo 1"/></li>

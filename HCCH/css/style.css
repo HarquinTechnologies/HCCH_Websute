@@ -27,10 +27,11 @@ and open the template in the editor.
     font-weight: bold;
 }
 
-.footerLinkColumn, a {
+.footerLinkColumn a {
     color: #5a5b5d;
     font-family: Adobe Calson Pro;
     font-weight: lighter;
+    font-size: 16px;
     text-decoration: none;
 }
 .wrap {
@@ -115,6 +116,7 @@ and open the template in the editor.
 .infoBarColumn {
     font-family: Adobe Calson Pro;
     color: #5a5b5d;
+    font-size: 10px;
 }
 
 .footerLinkColumn, a {
@@ -158,6 +160,13 @@ and open the template in the editor.
     width: 65%;
     margin-top: 5px;
     margin-bottom: 10px;
+}
+
+.our-providers-main-text {
+    font-family: Adobe Calson Pro;
+    color: #5a5b5d;
+    font-weight: lighter;
+    font-size: 14px;
 }
 
 #content {

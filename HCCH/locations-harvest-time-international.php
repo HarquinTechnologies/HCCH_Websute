@@ -66,7 +66,8 @@ and open the template in the editor.
                     <p>(407) 447-2642</p>
                     <h1 id="NavigatorHeader">Services at this Location</h1>
                     <p>Primary & Preventive Medical Care</p>
-                    <p>Behavioral Health Counseling</p>  
+                    <p>Behavioral Health Counseling</p>
+                    <p>Oral Health Services</p>
                     <p>Rapid HIV Testing</p>       
                     <p>On-Site Laboratory</p>                    
                     <h1 id="NavigatorHeader">Hours</h1>
